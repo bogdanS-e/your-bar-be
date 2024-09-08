@@ -3,12 +3,26 @@ import { z, ZodError } from 'zod';
 import uploadImage from '../../utils/uploadImage';
 import multerUpload from '../middlewares/multer';
 import { addNewIngredient } from '../../db/schemas/Ingredients';
+import { IResError } from '../../types/common';
+
+interface IAddIngredientReq {
+  name: string;
+  description: string;
+  tags: string; //pass string as Form data json array
+}
+
+interface IAddIngredientRes {
+  name: string;
+  description: string;
+  tags: string;
+  image: string | null;
+}
 
 const ingredientSchema = z.object({
   name: z
     .string()
     .min(1, 'Ingredient name is required')
-    .max(100, 'Name too long'),
+    .max(30, 'Name is too long'),
   description: z
     .string()
     .min(1, 'Description is required')
@@ -27,9 +41,8 @@ const ingredientSchema = z.object({
     .nullable(),
 });
 
-
-const validateIngredient = (req: Request, res: Response, next: NextFunction) => {
-  const { name, description, tags } = req.body;
+const validateIngredient = (req: Request, res: Response<IResError>, next: NextFunction) => {
+  const { name, description, tags } = req.body as IAddIngredientReq;
   const image = req.file;
 
   // Create a new object to validate
@@ -53,7 +66,7 @@ const validateIngredient = (req: Request, res: Response, next: NextFunction) => 
   } catch (error) {
     if (error instanceof ZodError) {
       res.status(400).json({
-        errors: error.errors,
+        error: error.errors[0].message,
       });
     }
   }
@@ -61,9 +74,10 @@ const validateIngredient = (req: Request, res: Response, next: NextFunction) => 
 
 export default function (app: Router) {
   const route = Router();
+  app.use('/add-ingredient', route);
 
-  app.post('/add-ingredient', multerUpload.single('image'), validateIngredient, async (req, res) => {
-    const { name, description, tags } = req.body;
+  route.post('/', multerUpload.single('image'), validateIngredient, async (req, res: Response<IAddIngredientRes | IResError>) => {
+    const { name, description, tags } = req.body as IAddIngredientReq;
     let imageUrl = null;
 
     try {
@@ -78,7 +92,7 @@ export default function (app: Router) {
         name,
         description,
         tags: JSON.parse(tags), // Parse tags since they are sent as JSON
-        imageUrl,
+        image: imageUrl,
       };
 
       await addNewIngredient({
@@ -88,27 +102,14 @@ export default function (app: Router) {
         image: imageUrl,
       });
 
-      res.status(201).json({ message: 'Ingredient created', data: ingredient });
+      res.status(201).json(ingredient);
     } catch (error) {
       console.error('Error uploading image', error);
       res.status(500).json({
-        message: 'Erro when add new ingredien',
-        error
+        error: 'Error while adding new ingredient',
       });
     }
-
-    /* try {
-      await addNewIngredient({
-        nameEn: name,
-        descriptionEn: description,
-        tags: tags.split(',').map((num) => parseInt(num))
-      });
-    } catch (error) {
-      res.status(500);
-      res.json({ error: { message: 'STOP here DO not continue Koryafff'} });
-      return;
-    } */
   });
 
-  route;
+  return route;
 }

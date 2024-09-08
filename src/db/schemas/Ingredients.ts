@@ -1,10 +1,11 @@
 import getDatabase from "../../loaders/mongoDB"
+import { IIngredient, TMongoIngredient } from "../../types/ingredient";
 
 const database = getDatabase();
 const collection = database.collection('ingredients');
 
 export const getAllIngredients = async () => {
-  const ingredients = await collection.aggregate([
+  const ingredients = await collection.aggregate<TMongoIngredient>([
     {
       $unwind: "$tags"
     },
@@ -32,6 +33,6 @@ export const getAllIngredients = async () => {
   return ingredients;
 }
 
-export const addNewIngredient = async (doc: any) => {
-  await collection.insertOne(doc);
+export const addNewIngredient = async (ingredient: IIngredient) => {
+  await collection.insertOne(ingredient);
 }

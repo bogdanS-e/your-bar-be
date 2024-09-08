@@ -1,22 +1,17 @@
-import { Router } from 'express';
-import { addNewIngredient, getAllIngredients } from '../../db/schemas/Ingredients';
-import path from 'path';
-
-import addIngredient from './add-ingredient';
+import { Response, Router } from 'express';
+import { getAllIngredients } from '../../db/schemas/Ingredients';
+import { TMongoIngredient } from '../../types/ingredient';
 
 
 export default function (app: Router) {
   const route = Router();
+  app.use('/ingredients', route);
 
-  app.get('/ingredients', async (req, res) => {
-    const a = await getAllIngredients();
-    console.log(a);
+  route.get('/', async (_, res: Response<TMongoIngredient[]>) => {
+    const ingredients = await getAllIngredients();
 
-
-    res.sendFile(path.join(__dirname, '/index.html'));
+    res.status(200).json(ingredients);
   });
-
-  addIngredient(app);
 
   return route;
 }
