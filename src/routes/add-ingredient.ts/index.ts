@@ -91,7 +91,7 @@ export default function (app: Router) {
       const ingredient = {
         name,
         description,
-        tags: JSON.parse(tags), // Parse tags since they are sent as JSON
+        tags: JSON.parse(tags).sort((a, b) => a - b), // Parse tags since they are sent as JSON
         image: imageUrl,
       };
 
