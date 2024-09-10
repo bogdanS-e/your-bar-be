@@ -1,5 +1,3 @@
-import { IWithObjectId } from "./common";
-
 export enum IngredientTag {
   Beverages,
   Strong,
@@ -8,6 +6,7 @@ export enum IngredientTag {
   Fruit,
   Juice,
   Other,
+  Custom,
 }
 
 export interface IIngredient {
@@ -16,5 +15,3 @@ export interface IIngredient {
   image: string | null;
   tags: IngredientTag[];
 }
-
-export type TMongoIngredient = IWithObjectId & IIngredient;

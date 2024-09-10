@@ -1,8 +1,8 @@
 import getDatabase from "../../loaders/mongoDB"
-import { IIngredient, TMongoIngredient } from "../../types/ingredient";
+import { IIngredient } from "../../types/ingredient";
 
 const database = getDatabase();
-const collection = database.collection('ingredients');
+const collection = database.collection<IIngredient>('ingredients');
 
 export const getAllIngredients = async () => {
   const ingredients = await collection.find().toArray();
