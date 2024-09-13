@@ -4,6 +4,8 @@ import uploadImage from '../../utils/uploadImage';
 import multerUpload from '../middlewares/multer';
 import { addNewIngredient } from '../../db/schemas/Ingredients';
 import { IResError } from '../../types/common';
+import { getMaxIngredientTagId } from '../../db/schemas/ingredient-tags';
+import { IngredientTag } from '../../types/ingredient';
 
 interface IAddIngredientReq {
   name: string;
@@ -14,7 +16,7 @@ interface IAddIngredientReq {
 interface IAddIngredientRes {
   name: string;
   description: string;
-  tags: string;
+  tags: IngredientTag[];
   image: string | null;
 }
 
@@ -41,9 +43,20 @@ const ingredientSchema = z.object({
     .nullable(),
 });
 
-const validateIngredient = (req: Request, res: Response<IResError>, next: NextFunction) => {
+const validateIngredient = async (req: Request, res: Response<IResError>, next: NextFunction) => {
   const { name, description, tags } = req.body as IAddIngredientReq;
   const image = req.file;
+
+  const maxId = await getMaxIngredientTagId();
+
+  for (const tagId of JSON.parse(tags)) {
+    if (tagId > maxId || tagId < 0) {
+      res.status(400).json({
+        error: `Unknown tag with id: ${tagId}`,
+      });
+      return;
+    }
+  }
 
   // Create a new object to validate
   const formData = {
@@ -83,7 +96,7 @@ export default function (app: Router) {
     try {
       // Upload the image to Cloudinary if present
       if (req.file) {
-        imageUrl = await uploadImage(req.file);
+        imageUrl = await uploadImage(req.file, 'ingredients');
         console.log('Uploaded image URL:', imageUrl); // Log URL to debug
       }
 
@@ -91,7 +104,7 @@ export default function (app: Router) {
       const ingredient = {
         name,
         description,
-        tags: JSON.parse(tags).sort((a, b) => a - b), // Parse tags since they are sent as JSON
+        tags: JSON.parse(tags).sort((a, b) => a - b) as IngredientTag[], // Parse tags since they are sent as JSON
         image: imageUrl,
       };
 

@@ -6,11 +6,11 @@ cloudinary.v2.config({
   api_secret: 'htKUp58BJEoYw-t65_GQGWzmGOU',
 });
 
-const uploadImage = async (file: Express.Multer.File): Promise<string> => {
+const uploadImage = async (file: Express.Multer.File, folder: 'cocktails' | 'ingredients'): Promise<string> => {
   return new Promise<string>((resolve, reject) => {
     cloudinary.v2.uploader.upload_stream(
       {
-        folder: 'ingredients',
+        folder,
       },
       (error, result) => {
         if (error) {

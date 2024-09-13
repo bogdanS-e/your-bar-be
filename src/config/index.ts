@@ -16,7 +16,6 @@ export default {
   mongodb: {
     password: process.env.DB_PASS,
     user: process.env.DB_USER,
-
   },
   cloudinary: {
     cloudName: process.env.CLOUDINARY_CLOUD_NAME,

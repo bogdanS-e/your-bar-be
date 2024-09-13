@@ -15,3 +15,8 @@ export interface IIngredient {
   image: string | null;
   tags: IngredientTag[];
 }
+
+export interface IIngredientTag {
+  id: number;
+  name: string;
+}
