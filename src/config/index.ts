@@ -1,12 +1,15 @@
 import dotenv from 'dotenv';
 
-process.env.NODE_ENV = process.env.NODE_ENV || 'development'
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
+console.log(process.env, process.env.NODE_ENV);
 
 const envFound = dotenv.config();
+console.log(envFound);
 
-if (envFound.error) {
+/* if (envFound.error) {
   throw new Error('no .env file found');
-}
+} */
 
 export default {
   app: {
