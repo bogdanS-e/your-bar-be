@@ -1,8 +1,8 @@
 import { Response, Router } from 'express';
-import { getIngredientById } from '../../db/schemas/Ingredients';
 import { ObjectId, WithId } from 'mongodb';
 import { IResError } from '../../types/common';
 import { ICocktail } from '../../types/cocktail';
+import { getCocktailById } from '../../db/schemas/cocktails';
 
 export default function (app: Router) {
   const route = Router();
@@ -15,7 +15,7 @@ export default function (app: Router) {
       return res.status(400).json({ error: 'Invalid ID format' });
     }
 
-    const cocktail = await getIngredientById(req.params.id);
+    const cocktail = await getCocktailById(req.params.id);
 
     if (!cocktail) {
       res.status(400).json({ error: `No cocktail with id ${id}` });
