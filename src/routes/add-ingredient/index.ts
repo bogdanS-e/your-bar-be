@@ -6,6 +6,8 @@ import { addNewIngredient } from '../../db/schemas/Ingredients';
 import { IResError } from '../../types/common';
 import { getMaxIngredientTagId } from '../../db/schemas/ingredient-tags';
 import { IngredientTag } from '../../types/ingredient';
+import { addNewCustomIngredient } from '../../db/schemas/custom-ingredients';
+import { protectedRoute } from '../middlewares/auth';
 
 interface IAddIngredientReq {
   name: string;
@@ -89,14 +91,14 @@ export default function (app: Router) {
   const route = Router();
   app.use('/add-ingredient', route);
 
-  route.post('/', multerUpload.single('image'), validateIngredient, async (req, res: Response<IAddIngredientRes | IResError>) => {
+  route.post('/', protectedRoute, multerUpload.single('image'), validateIngredient, async (req, res: Response<IAddIngredientRes | IResError>) => {
     const { name, description, tags } = req.body as IAddIngredientReq;
     let imageUrl = null;
 
     try {
       // Upload the image to Cloudinary if present
       if (req.file) {
-        imageUrl = await uploadImage(req.file, 'ingredients');
+        imageUrl = await uploadImage(req.file, 'custom-ingredients');
         console.log('Uploaded image URL:', imageUrl); // Log URL to debug
       }
 
@@ -108,12 +110,15 @@ export default function (app: Router) {
         image: imageUrl,
       };
 
-      await addNewIngredient({
-        nameEn: ingredient.name,
-        descriptionEn: ingredient.description,
-        tags: ingredient.tags,
-        image: imageUrl,
-      });
+      await addNewCustomIngredient(
+        {
+          nameEn: ingredient.name,
+          descriptionEn: ingredient.description,
+          tags: ingredient.tags,
+          image: imageUrl,
+        },
+        req.auth.payload.email as string
+      );
 
       res.status(201).json(ingredient);
     } catch (error) {

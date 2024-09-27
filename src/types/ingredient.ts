@@ -16,6 +16,10 @@ export interface IIngredient {
   tags: IngredientTag[];
 }
 
+export interface ICustomIngredient extends IIngredient {
+  visibleTo: string[];
+}
+
 export interface IIngredientTag {
   id: number;
   name: string;
