@@ -14,9 +14,9 @@ export default function (app: Router) {
 
     if (req.auth) {
       const customIngredients = await getAllCustomIngredientsByEmail(req.auth.payload.email as string);
-      console.log(customIngredients);
 
       res.status(200).json([...ingredients, ...customIngredients]);
+      
       return;
     }
 
