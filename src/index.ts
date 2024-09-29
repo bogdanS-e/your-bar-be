@@ -12,3 +12,5 @@ app
 		process.exit(1);
 	});
 
+	export default app;
+
