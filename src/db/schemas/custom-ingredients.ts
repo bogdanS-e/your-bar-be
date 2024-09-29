@@ -1,4 +1,3 @@
-import { WithId } from "mongodb";
 import getDatabase from "../../loaders/mongoDB"
 import { ICustomIngredient, IIngredient } from "../../types/ingredient";
 import generateUniqueSlug from "../../utils/generateSlug";
@@ -13,12 +12,6 @@ export const getAllCustomIngredientsByEmail = async (email: string) => {
   ).toArray();
 
   return ingredients;
-}
-
-export const getCustomIngredientBySlug = async (slug: string): Promise<WithId<ICustomIngredient> | null> => {
-  const ingredient = await collection.findOne({ slug }, { projection: { visibleTo: 0 } });
-
-  return ingredient;
 }
 
 export const addNewCustomIngredient = async (ingredient: Omit<IIngredient, 'slug'>, email: string) => {
