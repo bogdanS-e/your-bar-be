@@ -1,5 +1,6 @@
 import getDatabase from "../../loaders/mongoDB"
 import { ICustomIngredient, IIngredient } from "../../types/ingredient";
+import generateUniqueSlug from "../../utils/generateSlug";
 
 const database = getDatabase();
 const collection = database.collection<ICustomIngredient>('custom-ingredients');
@@ -13,9 +14,12 @@ export const getAllCustomIngredientsByEmail = async (email: string) => {
   return ingredients;
 }
 
-export const addNewCustomIngredient = async (ingredient: IIngredient, email: string) => {
+export const addNewCustomIngredient = async (ingredient: Omit<IIngredient, 'slug'>, email: string) => {
+  const slug = await generateUniqueSlug(ingredient.nameEn, collection);
+  
   await collection.insertOne({
     ...ingredient,
+    slug,
     visibleTo: [email],
   });
 }
