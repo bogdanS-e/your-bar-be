@@ -29,8 +29,7 @@ const ingredientSchema = z.object({
     .max(30, 'Name is too long'),
   description: z
     .string()
-    .min(1, 'Description is required')
-    .max(500, 'Description too long'),
+    .max(800, 'Description too long'),
   tags: z.array(z.number()).nonempty('At least one tag is required'),
   image: z
     .object({
