@@ -3,10 +3,12 @@ import { Request, Response, Router } from 'express';
 import { addNewUser, getUserByEmail } from '../../db/schemas/user';
 import { IResError } from '../../types/common';
 import { protectedRoute } from '../middlewares/auth';
-
+import userIngredient from './ingredient';
+import { IUser } from '../../types/user';
 
 export default function (app: Router) {
   const route = Router();
+  userIngredient(route);
   app.use('/user', route);
 
   route.get('/', protectedRoute, async (req: Request, res: Response<IUser | IResError>) => {
@@ -19,7 +21,8 @@ export default function (app: Router) {
         const newUser: IUser = {
           email,
           name,
-          picture
+          picture,
+          ingredients: [],
         }
 
         await addNewUser(newUser);
