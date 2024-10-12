@@ -4,11 +4,13 @@ import { addNewUser, getUserByEmail } from '../../db/schemas/user';
 import { IResError } from '../../types/common';
 import { protectedRoute } from '../middlewares/auth';
 import userIngredient from './ingredient';
+import userFavoriteCocktail from './favorite-cocktail';
 import { IUser } from '../../types/user';
 
 export default function (app: Router) {
   const route = Router();
   userIngredient(route);
+  userFavoriteCocktail(route);
   app.use('/user', route);
 
   route.get('/', protectedRoute, async (req: Request, res: Response<IUser | IResError>) => {
@@ -23,6 +25,7 @@ export default function (app: Router) {
           name,
           picture,
           ingredients: [],
+          favoriteCocktails: [],
         }
 
         await addNewUser(newUser);

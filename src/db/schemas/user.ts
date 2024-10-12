@@ -28,3 +28,17 @@ export const deleteIngredientFromUser = async (email: string, ingredientId: stri
     { $pull: { ingredients: new ObjectId(ingredientId) } },
   );
 }
+
+export const addFavoriteCocktailToUser = async (email: string, cocktailId: string) => {
+  await collection.updateOne(
+    { email },
+    { $addToSet: { favoriteCocktails: new ObjectId(cocktailId) } }
+  );
+}
+
+export const deleteFavoriteCocktailFromUser = async (email: string, cocktailId: string) => {
+  await collection.findOneAndUpdate(
+    { email },
+    { $pull: { favoriteCocktails: new ObjectId(cocktailId) } },
+  );
+}
