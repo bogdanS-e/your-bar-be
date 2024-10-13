@@ -3,9 +3,13 @@ import { WithId } from 'mongodb';
 import { IResError } from '../../types/common';
 import { ICocktail } from '../../types/cocktail';
 import { getCocktailBySlug } from '../../db/schemas/cocktails';
+import addCocktailRoute from './add';
+import editCocktailRoute from './edit';
 
 export default function (app: Router) {
   const route = Router();
+  addCocktailRoute(route);
+  editCocktailRoute(route);
   app.use('/cocktail', route);
 
   route.get('/:slug', async (req, res: Response<WithId<ICocktail> | IResError>) => {

@@ -1,4 +1,4 @@
-import { WithId } from "mongodb";
+import { ObjectId, WithId } from "mongodb";
 import getDatabase from "../../loaders/mongoDB";
 import { ICocktail } from "../../types/cocktail";
 import generateUniqueSlug from "../../utils/generateSlug";
@@ -19,6 +19,12 @@ export const getCocktailBySlug = async (slug: string): Promise<WithId<ICocktail>
   return cocktail;
 }
 
+export const getCocktailById = async (id: string): Promise<WithId<ICocktail> | null> => {
+  const cocktail = await collection.findOne({ _id: new ObjectId(id) });
+
+  return cocktail;
+}
+
 export const addNewCocktail = async (cocktail: Omit<ICocktail, 'slug'>) => {
   const slug = await generateUniqueSlug(cocktail.nameEn, collection);
   const cocktailWithSlug: ICocktail = {
@@ -28,3 +34,13 @@ export const addNewCocktail = async (cocktail: Omit<ICocktail, 'slug'>) => {
 
   await collection.insertOne(cocktailWithSlug);
 }
+
+export const editCocktailById = async (id: string, cocktail: Omit<ICocktail, 'slug'>) => {
+  const updateData = {
+    $set: {
+      ...cocktail,
+    },
+  };
+
+  await collection.updateOne({ _id: new ObjectId(id) }, updateData);
+};

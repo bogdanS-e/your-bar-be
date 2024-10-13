@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response, Router } from 'express';
 import { z, ZodError } from 'zod';
-import uploadImage from '../../utils/uploadImage';
+import {uploadImage} from '../../utils/cloudinary';
 import multerUpload from '../middlewares/multer';
 import { addNewIngredient } from '../../db/schemas/Ingredients';
 import { IResError } from '../../types/common';
