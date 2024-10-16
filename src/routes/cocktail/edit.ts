@@ -71,7 +71,10 @@ const editCocktailRoute = (cocktailRouter: Router) => {
         image: imageUrl,
       });
 
-      res.status(200).json(cocktail);
+      res.status(200).json({
+        ...oldCocktail,
+        ...cocktail,
+      });
     } catch (error) {
       console.error('Error while editing cocktail', error);
       res.status(500).json({
