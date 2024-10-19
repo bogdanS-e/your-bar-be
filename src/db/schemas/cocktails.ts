@@ -2,7 +2,6 @@ import { ObjectId, WithId } from "mongodb";
 import getDatabase from "../../loaders/mongoDB";
 import { ICocktail } from "../../types/cocktail";
 import generateUniqueSlug from "../../utils/generateSlug";
-import slugify from "slugify";
 
 const database = getDatabase();
 const collection = database.collection<ICocktail>('cocktails');
