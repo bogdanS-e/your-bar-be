@@ -32,7 +32,11 @@ const editCocktailRoute = (cocktailRouter: Router) => {
     const oldCocktail = await getCocktailById(cocktailId);
 
     if (!oldCocktail) {
-      throw new Error('No cocktail found with the provided ID');
+      res.status(404).json({
+        error: 'Cocktail not found',
+      });
+
+      return;
     }
 
     try {
