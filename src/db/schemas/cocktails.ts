@@ -1,5 +1,5 @@
 import { ObjectId, WithId } from 'mongodb';
-import getDatabase from '../../loaders/mongoDB';
+import getDatabase from '../mongoDB';
 import { ICocktail } from '../../types/cocktail';
 import generateUniqueSlug from '../../utils/generateSlug';
 

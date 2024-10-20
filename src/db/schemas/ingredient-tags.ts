@@ -1,4 +1,4 @@
-import getDatabase from '../../loaders/mongoDB';
+import getDatabase from '../mongoDB';
 import { IIngredientTag } from '../../types/ingredient';
 
 const database = getDatabase();

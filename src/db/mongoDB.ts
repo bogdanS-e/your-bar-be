@@ -1,7 +1,7 @@
 import { MongoClient } from 'mongodb';
 import config from '../config';
 
-const { user, password } = config.mongodb;
+const { user, password, name } = config.mongodb;
 
 const uri = `mongodb+srv://${user}:${password}@cluster0.vbr97.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 let client: MongoClient;
@@ -13,6 +13,6 @@ try {
   console.log(error);
 }
 
-export default function getDatabase() {
-  return client.db('your-bar');
-}
+const getDatabase = () => client.db(name);
+
+export default getDatabase;
