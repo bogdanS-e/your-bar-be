@@ -1,9 +1,10 @@
 import express from 'express';
 import config from './config';
-import load from './loaders';
+import loadApp from './loaders';
 
 const app = express();
-load(app);
+
+loadApp(app);
 
 app
   .listen(config.app.port, () => console.log(`server running on port ${config.app.port}`))

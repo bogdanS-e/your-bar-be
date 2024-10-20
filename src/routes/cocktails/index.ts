@@ -1,17 +1,14 @@
-import { Response, Router } from 'express';
-import { WithId } from 'mongodb';
-import { ICocktail } from '../../types/cocktail';
-import { getAllCocktails } from '../../db/schemas/cocktails';
+import { Router } from 'express';
+import getCocktailsRoute from './get';
 
-export default function (app: Router) {
+const cocktailsRoute = (app: Router) => {
   const route = Router();
+
+  getCocktailsRoute(route);
+
   app.use('/cocktails', route);
 
-  route.get('/', async (_, res: Response<WithId<ICocktail>[]>) => {
-    const ingredients = await getAllCocktails();
-
-    res.status(200).json(ingredients);
-  });
-
   return route;
-}
+};
+
+export default cocktailsRoute;

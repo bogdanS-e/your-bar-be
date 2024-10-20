@@ -1,19 +1,21 @@
 import { Router } from 'express';
 
-import ingredientsRouter from './ingredients';
-import ingredientRouter from './ingredient';
-import cocktailsRouter from './cocktails';
-import cocktailRouter from './cocktail';
-import userRouter from './user';
+import userRoute from './user';
+import ingredientsRoute from './ingredients';
+import ingredientRoute from './ingredient';
+import cocktailsRoute from './cocktails';
+import cocktailRoute from './cocktail';
 
-export default function () {
+const indexRoute = () => {
   const app = Router();
 
-  ingredientsRouter(app);
-  ingredientRouter(app);
-  cocktailsRouter(app);
-  cocktailRouter(app);
-  userRouter(app);
+  ingredientsRoute(app);
+  ingredientRoute(app);
+  cocktailsRoute(app);
+  cocktailRoute(app);
+  userRoute(app);
 
   return app;
-}
+};
+
+export default indexRoute;

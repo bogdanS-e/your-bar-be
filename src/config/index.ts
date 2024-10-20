@@ -8,7 +8,7 @@ if (process.env.NODE_ENV === 'development' && envFound.error) {
   throw new Error('no .env file found');
 }
 
-export default {
+const config = {
   app: {
     port: parseInt(process.env.PORT, 10),
     apiPrefix: process.env.API_PREFIX,
@@ -24,3 +24,5 @@ export default {
     apiSecret: process.env.API_SECRET,
   },
 };
+
+export default config;

@@ -1,30 +1,18 @@
-import { Response, Router } from 'express';
-import { WithId } from 'mongodb';
-import { IResError } from '../../types/common';
-import { ICocktail } from '../../types/cocktail';
-import { getCocktailBySlug } from '../../db/schemas/cocktails';
+import { Router } from 'express';
 import addCocktailRoute from './add';
 import editCocktailRoute from './edit';
+import getCocktailRoute from './get';
 
-export default function (app: Router) {
+const cocktailRoute = (app: Router) => {
   const route = Router();
+
   addCocktailRoute(route);
   editCocktailRoute(route);
+  getCocktailRoute(route);
+
   app.use('/cocktail', route);
 
-  route.get('/:slug', async (req, res: Response<WithId<ICocktail> | IResError>) => {
-    const { slug } = req.params;
-
-    const cocktail = await getCocktailBySlug(req.params.slug);
-
-    if (!cocktail) {
-      res.status(400).json({ error: `No cocktail with slug: ${slug}` });
-
-      return;
-    }
-
-    res.status(200).json(cocktail);
-  });
-
   return route;
-}
+};
+
+export default cocktailRoute;
