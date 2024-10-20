@@ -15,20 +15,25 @@ const extractPublicIdFromUrl = (url: string): string => {
   return publicId ? publicId : '';
 };
 
-export const uploadImage = async (file: Express.Multer.File, folder: 'cocktails' | 'ingredients' | 'custom-ingredients'): Promise<string> => {
+export const uploadImage = async (
+  file: Express.Multer.File,
+  folder: 'cocktails' | 'ingredients' | 'custom-ingredients'
+): Promise<string> => {
   return new Promise<string>((resolve, reject) => {
-    cloudinary.v2.uploader.upload_stream(
-      {
-        folder,
-      },
-      (error, result) => {
-        if (error) {
-          reject(error);
-        } else {
-          resolve(result?.secure_url ?? '');
+    cloudinary.v2.uploader
+      .upload_stream(
+        {
+          folder,
+        },
+        (error, result) => {
+          if (error) {
+            reject(error);
+          } else {
+            resolve(result?.secure_url ?? '');
+          }
         }
-      }
-    ).end(file.buffer); // Use the buffer directly
+      )
+      .end(file.buffer); // Use the buffer directly
   });
 };
 
@@ -51,7 +56,7 @@ export const replaceImage = async (
   folder: 'cocktails' | 'ingredients' | 'custom-ingredients'
 ): Promise<string> => {
   console.log('Init replace image', oldImageUrl);
-  
+
   await deleteImage(oldImageUrl);
   const newImageUrl = await uploadImage(newFile, folder);
 

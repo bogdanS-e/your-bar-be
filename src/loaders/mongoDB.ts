@@ -1,4 +1,4 @@
-import { MongoClient } from "mongodb";
+import { MongoClient } from 'mongodb';
 import config from '../config';
 
 const { user, password } = config.mongodb;

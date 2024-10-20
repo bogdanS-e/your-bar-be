@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === 'development' && envFound.error) {
 export default {
   app: {
     port: parseInt(process.env.PORT, 10),
-    apiPrefix: process.env.API_PREFIX
+    apiPrefix: process.env.API_PREFIX,
   },
   mongodb: {
     password: process.env.DB_PASS,
@@ -21,5 +21,5 @@ export default {
     cloudName: process.env.CLOUDINARY_CLOUD_NAME,
     apiKey: process.env.CLOUDINARY_API_KEY,
     apiSecret: process.env.API_SECRET,
-  }
-}
+  },
+};

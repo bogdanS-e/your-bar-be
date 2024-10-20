@@ -26,7 +26,7 @@ export default function (app: Router) {
           picture,
           ingredients: [],
           favoriteCocktails: [],
-        }
+        };
 
         await addNewUser(newUser);
         res.status(200).json(newUser);

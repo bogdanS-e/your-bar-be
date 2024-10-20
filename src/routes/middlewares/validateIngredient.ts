@@ -1,17 +1,12 @@
-import { z, ZodError } from "zod";
+import { z, ZodError } from 'zod';
 import { NextFunction, Request, Response } from 'express';
-import { IResError } from "../../types/common";
-import { getMaxIngredientTagId } from "../../db/schemas/ingredient-tags";
-import { IAddIngredientReq } from "../ingredient/add";
+import { IResError } from '../../types/common';
+import { getMaxIngredientTagId } from '../../db/schemas/ingredient-tags';
+import { IAddIngredientReq } from '../ingredient/add';
 
 const ingredientSchema = z.object({
-  name: z
-    .string()
-    .min(1, 'Ingredient name is required')
-    .max(30, 'Name is too long'),
-  description: z
-    .string()
-    .max(800, 'Description too long'),
+  name: z.string().min(1, 'Ingredient name is required').max(30, 'Name is too long'),
+  description: z.string().max(800, 'Description too long'),
   tags: z.array(z.number()).nonempty('At least one tag is required'),
   image: z
     .object({
@@ -48,11 +43,11 @@ const validateIngredient = async (req: Request, res: Response<IResError>, next: 
     tags: JSON.parse(tags), // Convert tags to numbers
     image: image
       ? {
-        buffer: image.buffer,
-        originalname: image.originalname,
-        mimetype: image.mimetype,
-        size: image.size,
-      }
+          buffer: image.buffer,
+          originalname: image.originalname,
+          mimetype: image.mimetype,
+          size: image.size,
+        }
       : null,
   };
 
@@ -66,6 +61,6 @@ const validateIngredient = async (req: Request, res: Response<IResError>, next: 
       });
     }
   }
-}
+};
 
 export default validateIngredient;

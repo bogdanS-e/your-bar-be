@@ -24,68 +24,75 @@ interface IEditCocktailRes {
 }
 
 const editCocktailRoute = (cocktailRouter: Router) => {
-  cocktailRouter.put('/edit/:cocktailId', multerUpload.single('image'), validateCocktail, async (req, res: Response<IEditCocktailRes | IResError>) => {
-    const { name, description, recipe, ingredients, tags } = req.body as IEditCocktailReq;
-    const { cocktailId } = req.params;
-    let imageUrl = null;
+  cocktailRouter.put(
+    '/edit/:cocktailId',
+    multerUpload.single('image'),
+    validateCocktail,
+    async (req, res: Response<IEditCocktailRes | IResError>) => {
+      const { name, description, recipe, ingredients, tags } = req.body as IEditCocktailReq;
+      const { cocktailId } = req.params;
+      let imageUrl = null;
 
-    const oldCocktail = await getCocktailById(cocktailId);
+      const oldCocktail = await getCocktailById(cocktailId);
 
-    if (!oldCocktail) {
-      res.status(404).json({
-        error: 'Cocktail not found',
-      });
+      if (!oldCocktail) {
+        res.status(404).json({
+          error: 'Cocktail not found',
+        });
 
-      return;
-    }
-
-    try {
-      const oldImage = oldCocktail.image;
-      const newImage = req.file;
-
-      if (oldImage && !newImage) {
-        await deleteImage(oldCocktail.image);
-      } else if (newImage && !oldImage) {
-        imageUrl = await uploadImage(newImage, 'cocktails');
-      } else if (oldImage && newImage) {
-        imageUrl = await replaceImage(oldCocktail.image, newImage, 'cocktails');
+        return;
       }
 
-      const cocktail = {
-        name,
-        description,
-        recipe,
-        tags: JSON.parse(tags).sort((a, b) => a - b) as CocktailTag[], // Parse tags since they are sent as JSON
-        ingredients: JSON.parse(ingredients) as ICocktailIngredient[], // Parse ingredients since they are sent as JSON
-        image: imageUrl,
-      };
+      try {
+        const oldImage = oldCocktail.image;
+        const newImage = req.file;
 
-      await editCocktailById(cocktailId, {
-        nameEn: cocktail.name,
-        descriptionEn: cocktail.description,
-        recipeEn: cocktail.recipe,
-        tags: cocktail.tags,
-        ingredients: cocktail.ingredients.map(({ ingredientId, value, unit, isOptional, isDecoration }) => ({
-          ingredientId: new ObjectId(ingredientId),
-          value,
-          unit,
-          isOptional,
-          isDecoration
-        })),
-        image: imageUrl,
-      });
+        if (oldImage && !newImage) {
+          await deleteImage(oldCocktail.image);
+        } else if (newImage && !oldImage) {
+          imageUrl = await uploadImage(newImage, 'cocktails');
+        } else if (oldImage && newImage) {
+          imageUrl = await replaceImage(oldCocktail.image, newImage, 'cocktails');
+        }
 
-      res.status(200).json({
-        ...oldCocktail,
-        ...cocktail,
-      });
-    } catch (error) {
-      console.error('Error while editing cocktail', error);
-      res.status(500).json({
-        error: 'Error while editing cocktail',
-      });
+        const cocktail = {
+          name,
+          description,
+          recipe,
+          tags: JSON.parse(tags).sort((a, b) => a - b) as CocktailTag[], // Parse tags since they are sent as JSON
+          ingredients: JSON.parse(ingredients) as ICocktailIngredient[], // Parse ingredients since they are sent as JSON
+          image: imageUrl,
+        };
+
+        await editCocktailById(cocktailId, {
+          nameEn: cocktail.name,
+          descriptionEn: cocktail.description,
+          recipeEn: cocktail.recipe,
+          tags: cocktail.tags,
+          ingredients: cocktail.ingredients.map(
+            ({ ingredientId, value, unit, isOptional, isDecoration }) => ({
+              ingredientId: new ObjectId(ingredientId),
+              value,
+              unit,
+              isOptional,
+              isDecoration,
+            })
+          ),
+          image: imageUrl,
+        });
+
+        res.status(200).json({
+          ...oldCocktail,
+          ...cocktail,
+        });
+      } catch (error) {
+        console.error('Error while editing cocktail', error);
+        res.status(500).json({
+          error: 'Error while editing cocktail',
+        });
+      }
     }
-  });
-}
+  );
+};
 
 export default editCocktailRoute;

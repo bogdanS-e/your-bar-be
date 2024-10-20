@@ -7,27 +7,27 @@ import { notFoundHandler, globalErrorHandler } from '../routes/middlewares/error
 import type { Express } from 'express';
 
 export default function (app: Express) {
-	// status checkpoints
-	app.get('/status', (req, res) => res.sendStatus(200).end());
-	app.head('/status', (req, res) => res.sendStatus(200).end());
+  // status checkpoints
+  app.get('/status', (req, res) => res.sendStatus(200).end());
+  app.head('/status', (req, res) => res.sendStatus(200).end());
 
-	// reveal real origin ip behind reverse proxies
-	app.enable('trust proxy');
+  // reveal real origin ip behind reverse proxies
+  app.enable('trust proxy');
 
-	// middlewares
-	app.use(
-		helmet({
-			contentSecurityPolicy: false
-		})
-	);
-	app.use(cors());
-	app.use(express.urlencoded({ extended: false }));
-	app.use(express.json({}));
+  // middlewares
+  app.use(
+    helmet({
+      contentSecurityPolicy: false,
+    })
+  );
+  app.use(cors());
+  app.use(express.urlencoded({ extended: false }));
+  app.use(express.json({}));
 
-	// routes
-	app.use(config.app.apiPrefix, indexRouter());
+  // routes
+  app.use(config.app.apiPrefix, indexRouter());
 
-	// erorr handlers
-	app.use(notFoundHandler);
-	app.use(globalErrorHandler);
+  // erorr handlers
+  app.use(notFoundHandler);
+  app.use(globalErrorHandler);
 }

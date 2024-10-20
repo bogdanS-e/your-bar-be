@@ -13,8 +13,8 @@ export default function (app: Router) {
   app.use('/cocktail', route);
 
   route.get('/:slug', async (req, res: Response<WithId<ICocktail> | IResError>) => {
-    const {slug} = req.params;
-    
+    const { slug } = req.params;
+
     const cocktail = await getCocktailBySlug(req.params.slug);
 
     if (!cocktail) {

@@ -1,9 +1,12 @@
-import { Collection, Filter } from "mongodb";
-import slugify from "slugify";
-import { ICocktail } from "../types/cocktail";
-import { IIngredient } from "../types/ingredient";
+import { Collection, Filter } from 'mongodb';
+import slugify from 'slugify';
+import { ICocktail } from '../types/cocktail';
+import { IIngredient } from '../types/ingredient';
 
-const generateUniqueSlug = async <T extends ICocktail | IIngredient >(name: string, collection: Collection<T>) => {
+const generateUniqueSlug = async <T extends ICocktail | IIngredient>(
+  name: string,
+  collection: Collection<T>
+) => {
   const baseSlug = slugify(name, { lower: true, strict: true, replacement: '-' });
   let slug = baseSlug;
 
@@ -15,6 +18,6 @@ const generateUniqueSlug = async <T extends ICocktail | IIngredient >(name: stri
   }
 
   return slug;
-}
+};
 
 export default generateUniqueSlug;

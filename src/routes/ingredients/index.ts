@@ -13,10 +13,12 @@ export default function (app: Router) {
     const ingredients = await getAllIngredients();
 
     if (req.auth) {
-      const customIngredients = await getAllCustomIngredientsByEmail(req.auth.payload.email as string);
+      const customIngredients = await getAllCustomIngredientsByEmail(
+        req.auth.payload.email as string
+      );
 
       res.status(200).json([...ingredients, ...customIngredients]);
-      
+
       return;
     }
 

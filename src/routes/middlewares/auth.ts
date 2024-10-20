@@ -1,4 +1,4 @@
-import { auth } from "express-oauth2-jwt-bearer";
+import { auth } from 'express-oauth2-jwt-bearer';
 
 export const protectedRoute = auth({
   audience: 'https://hello-world.example.com',

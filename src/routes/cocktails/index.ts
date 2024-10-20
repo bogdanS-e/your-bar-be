@@ -3,7 +3,6 @@ import { WithId } from 'mongodb';
 import { ICocktail } from '../../types/cocktail';
 import { getAllCocktails } from '../../db/schemas/cocktails';
 
-
 export default function (app: Router) {
   const route = Router();
   app.use('/cocktails', route);

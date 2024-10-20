@@ -1,5 +1,5 @@
-import {Response, Router } from 'express';
-import {uploadImage} from '../../utils/cloudinary';
+import { Response, Router } from 'express';
+import { uploadImage } from '../../utils/cloudinary';
 import multerUpload from '../middlewares/multer';
 import { IResError } from '../../types/common';
 import { CocktailTag, ICocktailIngredient } from '../../types/cocktail';
@@ -24,49 +24,56 @@ interface IAddCocktailRes {
 }
 
 const addCocktailRoute = (cocktailRouter: Router) => {
-  cocktailRouter.post('/add', multerUpload.single('image'), validateCocktail, async (req, res: Response<IAddCocktailRes | IResError>) => {
-    const { name, description, recipe, ingredients, tags } = req.body as IAddCocktailReq;
-    let imageUrl = null;
+  cocktailRouter.post(
+    '/add',
+    multerUpload.single('image'),
+    validateCocktail,
+    async (req, res: Response<IAddCocktailRes | IResError>) => {
+      const { name, description, recipe, ingredients, tags } = req.body as IAddCocktailReq;
+      let imageUrl = null;
 
-    try {
-      // Upload the image to Cloudinary if present
-      if (req.file) {
-        imageUrl = await uploadImage(req.file, 'cocktails');
-        console.log('Uploaded image URL:', imageUrl);
+      try {
+        // Upload the image to Cloudinary if present
+        if (req.file) {
+          imageUrl = await uploadImage(req.file, 'cocktails');
+          console.log('Uploaded image URL:', imageUrl);
+        }
+
+        const cocktail = {
+          name,
+          description,
+          recipe,
+          tags: JSON.parse(tags).sort((a, b) => a - b) as CocktailTag[], // Parse tags since they are sent as JSON
+          ingredients: JSON.parse(ingredients) as ICocktailIngredient[], // Parse ingredients since they are sent as JSON
+          image: imageUrl,
+        };
+
+        await addNewCocktail({
+          nameEn: cocktail.name,
+          descriptionEn: cocktail.description,
+          recipeEn: cocktail.recipe,
+          tags: cocktail.tags,
+          ingredients: cocktail.ingredients.map(
+            ({ ingredientId, value, unit, isOptional, isDecoration }) => ({
+              ingredientId: new ObjectId(ingredientId),
+              value,
+              unit,
+              isOptional,
+              isDecoration,
+            })
+          ),
+          image: imageUrl,
+        });
+
+        res.status(201).json(cocktail);
+      } catch (error) {
+        console.error('Error uploading image', error);
+        res.status(500).json({
+          error: 'Error while adding new cocktail',
+        });
       }
-
-      const cocktail = {
-        name,
-        description,
-        recipe,
-        tags: JSON.parse(tags).sort((a, b) => a - b) as CocktailTag[], // Parse tags since they are sent as JSON
-        ingredients: JSON.parse(ingredients) as ICocktailIngredient[], // Parse ingredients since they are sent as JSON
-        image: imageUrl,
-      };
-
-      await addNewCocktail({
-        nameEn: cocktail.name,
-        descriptionEn: cocktail.description,
-        recipeEn: cocktail.recipe,
-        tags: cocktail.tags,
-        ingredients: cocktail.ingredients.map(({ ingredientId, value, unit, isOptional, isDecoration }) => ({
-          ingredientId: new ObjectId(ingredientId),
-          value,
-          unit,
-          isOptional,
-          isDecoration
-        })),
-        image: imageUrl,
-      });
-
-      res.status(201).json(cocktail);
-    } catch (error) {
-      console.error('Error uploading image', error);
-      res.status(500).json({
-        error: 'Error while adding new cocktail',
-      });
     }
-  });
-}
+  );
+};
 
 export default addCocktailRoute;
