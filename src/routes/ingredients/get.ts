@@ -1,13 +1,10 @@
 import { Request, Response, Router } from 'express';
-import { WithId } from 'mongodb';
 import { IIngredient } from '../../types/ingredient';
-import { getAllIngredients } from '../../db/schemas/Ingredients';
 import { getAllCustomIngredientsByEmail } from '../../db/schemas/custom-ingredients';
 import { readJWT } from '../middlewares/auth';
+import ingredients from '../../db/data/defaultIngredients.json'; 
 
-const handler = async (req: Request, res: Response<WithId<IIngredient>[]>) => {
-  const ingredients = await getAllIngredients();
-
+const handler = async (req: Request, res: Response<IIngredient[]>) => {
   if (req.auth) {
     const customIngredients = await getAllCustomIngredientsByEmail(
       req.auth.payload.email as string
