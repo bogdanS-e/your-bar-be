@@ -1,0 +1,1670 @@
+[
+  {
+    "_id": "66d853820e1303e3ad494743",
+    "nameEn": "7-UP",
+    "descriptionEn": "7-Up is a non-caffeinated soft drink with a lemon-lime flavor. Charles Leiper Grigg invented the drink in 1929 and launched it just before the Wall Street Stock Market Crash. A popular mixer, 7-Up is used in the 7 on 7, Mojo, and Long Beach Ice Tea.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725798587/pngegg_1_hbyltp.png",
+    "slug": "7-up"
+  },
+  {
+    "_id": "66d8544e0e1303e3ad494745",
+    "nameEn": "Absinthe",
+    "descriptionEn": "Ranging from 45-75% ABV, absinthe is an anise-flavored liqueur, and its taste is most comparable to black licorice. Green or clear, absinthe is made from herbs, botanicals and the “grand wormwood” flower, which gives the intoxication associated with it a different feel than most other spirits. Absinthe was first made in the 1700s, and the drink gained its popularity and reputation amongst the great artists and writers of the late 1800s. The most famous absinthe cocktail involves pouring absinthe onto a sugar cube held over a glass with a slotted spoon, lighting the sugar cube on fire to caramelize it, and finally stirring the sugar into the absinthe along with some cold water.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725798671/pngegg_2_npc3w5.png",
+    "slug": "absinthe"
+  },
+  {
+    "_id": "66d8ba8afb7fd7d646123e7f",
+    "nameEn": "Agave Nectar",
+    "descriptionEn": "Agave nectar is a sweetener made from the agave plant. Agave nectar is sweeter than honey and has been around since it was first produced by the Aztecs. Today agave nectar is primarily used in Margaritas. In place of orange liqueur, agave nectar is often mixed with tequila and lime juice to create “The Perfect Margarita”.",
+    "tags": [
+      2,
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725798733/pngegg_3_zwfeaa.png",
+    "slug": "agave-nectar"
+  },
+  {
+    "_id": "66d8bb11ca8bbf80c6f84f41",
+    "nameEn": "Almond Syrup",
+    "descriptionEn": "Almond syrup is a mixing syrup made from almonds with a sweet, woody, almond taste. Recipes for early almond syrups have been found in history books dating as far back as Roman times, and today almond syrup is used in cocktails like the Polo Dream and Elegant Lady.",
+    "tags": [
+      2,
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725799060/sf-almond-1ltr-syrup-large-shelf-image_uonzfq.png",
+    "slug": "almond-syrup"
+  },
+  {
+    "_id": "66d8bb84ca8bbf80c6f84f42",
+    "nameEn": "Amaretto",
+    "descriptionEn": "A sweet Italian liqueur that tastes like almonds, Amaretto uses apricot pits and/or almonds as its base. The legend of Amaretto's origin holds that artist Bernardino Luini used a local innkeeper as his model for the Madonna he was commissioned to paint as part of a church fresco, and as a gift, she gave him an early recipe for Amaretto. Amaretto is consumed neat, on the rocks, or in coffee, but is also featured in the Godfather, Amaretto Sour, and French Connection cocktails.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725799313/Disaronno-Amaretto-_lohxpq.png",
+    "slug": "amaretto"
+  },
+  {
+    "_id": "66dc8c457ef4f0eac143cac5",
+    "nameEn": "Amaro nonino",
+    "descriptionEn": "An Italian bitter liqueur based on grappa and infused with herbs and fruits. It is about 35% ABV and is often served on the rocks as an apéritif. It is also used in the popular cocktail Paper Plane.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725729861/ingredients/lcnqsdtvbgwik9mjrvs9.png",
+    "slug": "amaro-nonino"
+  },
+  {
+    "_id": "66dc8d837ef4f0eac143cac6",
+    "nameEn": "Angostura Bitters",
+    "descriptionEn": "Angostura Bitters are made from forty different tropical herbs and spices, along with alcohol and water, and bottled at 44.7% ABV. Johann Gottlieb Benjamin Siegert, a German doctor, invented the recipe in 1824. Angostura Bitters are most commonly featured in the Manhattan, the Old Fashioned, and the Sazerac.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725730178/ingredients/fes4vlfn38zbdgcuypod.webp",
+    "slug": "angostura-bitters"
+  },
+  {
+    "_id": "66dda2815e1eaf759c8fb549",
+    "nameEn": "Aperol",
+    "descriptionEn": "An Italian liqueur with a sweet orange flavor, Aperol is typically served before dinner as an aperitif. Aperol is made from bitter orange, rhubarb, cinchona, and gentian, and has an ABV of 11%. First manufactured in 1919, Aperol gained popularity after World War II. Aperol is used in the Spritz, a popular aperitif cocktail served in northeastern Italy.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725801090/ingredients/n8xek1qibpqgjwnsuivc.png",
+    "slug": "aperol"
+  },
+  {
+    "_id": "66dea6d9146eab4b8712ecb7",
+    "nameEn": "Apple",
+    "descriptionEn": "Apples are sweet, typically red or green fruits. Apples are used primarily in apple-flavored drinks, such as Cider Punch. Apples can be used in Sangria as well, or as a garnish/juice in an Appletini.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725867738/ingredients/lhvmwtj195bkt13heryi.png",
+    "slug": "apple"
+  },
+  {
+    "_id": "66dea847bddabd67e3c88761",
+    "nameEn": "Apple Juice",
+    "descriptionEn": "A very sweet juice made by macerating and pressing apples. Fermentation converts apple juice to Cider, and distilled apple cider is used to produce Calvados.",
+    "tags": [
+      4,
+      5
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725868104/ingredients/kdbtztbkxyupsb2o9kxo.png",
+    "slug": "apple-juice"
+  },
+  {
+    "_id": "66dea947bddabd67e3c88762",
+    "nameEn": "Apple Liqueur",
+    "descriptionEn": "An apple liqueur is any liqueur made through the distillation of apples and has sugar added to it before bottling. Apple liqueurs did not become popular until the early to mid-20th century. These liqueurs are used in many well-known apple-influenced cocktails, including the Appletini, the Apple Pie, and apple-flavored Jello-O shots.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725868361/ingredients/cdtjx9jbdxqremetodud.png",
+    "slug": "apple-liqueur"
+  },
+  {
+    "_id": "66deaa58bddabd67e3c88763",
+    "nameEn": "Apple Schnapps",
+    "descriptionEn": "Apple schnapps is an apple-flavored alcoholic beverage made from neutral grain spirits, distilled apples, and other apple flavors. Sugar is added to schnapps after distillation, making it a liqueur. Apple schnapps is German in origin and has become popular in America and around the world as an ingredient in cocktails such as Jungle Juice and the Apple Martini.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725868634/ingredients/tojienh7drpkym3cns2d.png",
+    "slug": "apple-schnapps"
+  },
+  {
+    "_id": "66deaac0bddabd67e3c88764",
+    "nameEn": "Apricot Brandy",
+    "descriptionEn": "Apricot brandy is made by distilling fermented apricots. The liqueur is smooth, and light, with an apricot flavor. Apricot brandy has an alcohol content reaching upwards of 40% ABV, and its production dates back to 1755 when liquors similar to today's apricot brandy were produced in Bordeaux, France. Apricot brandy can be taken neat or on the rocks and is a key ingredient in popular cocktails such as the Naked Lady, the Apricot Sour, and the Zombie.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725868738/ingredients/frc8oyvki1hdcrujzdo2.png",
+    "slug": "apricot-brandy"
+  },
+  {
+    "_id": "66deab34bddabd67e3c88765",
+    "nameEn": "Baileys",
+    "descriptionEn": "At 17% ABV, Baileys Irish Cream is an Irish whiskey-and-cream-based liqueur. International Distillers & Vinters, a spirit distribution company, first made Baileys in 1974, when it became the first Irish cream on the market. The Irish Car Bomb, B-52, and Mudslide all require Baileys, but the liqueur can also be used in coffee.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725868854/ingredients/mz4k1tagxwgs8mqeqkib.png",
+    "slug": "baileys"
+  },
+  {
+    "_id": "66deab6ebddabd67e3c88766",
+    "nameEn": "Banana",
+    "descriptionEn": "Bananas are subtly flavoured, mildly sweet yellow fruits. Bananas are blended into cocktails, like Banana Daiquiris and Banana Coladas. In certain parts of the world, bananas are added to mugs of beer as a mild sweetness enhancer.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725868912/ingredients/h1ks0ioe0okvahryzuzo.png",
+    "slug": "banana"
+  },
+  {
+    "_id": "66deabbcbddabd67e3c88767",
+    "nameEn": "Banana Liqueur",
+    "descriptionEn": "Banana liqueur is usually based on rum or other neutral spirit, often sweetened with sugar. Very popular cocktails with banana liqueur are Dirty Banana, Banana Colada and Banana Calling.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725868989/ingredients/ftlali0crx07ylil0xr7.png",
+    "slug": "banana-liqueur"
+  },
+  {
+    "_id": "66deabeabddabd67e3c88768",
+    "nameEn": "Basil",
+    "descriptionEn": "Also known as \"the king of herbs\", basil makes a great addition to or garnish for Gin and Vodka-based cocktails. Our favorite basil-flavored cocktail is the \"Basil Smash\". If you live in a mild climate, it's easy to grow your own basil so you can always have fresh supply at hand. Fresh cut basil lasts about a week.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725869035/ingredients/d6nknwenswrk2abdxmrw.png",
+    "slug": "basil"
+  },
+  {
+    "_id": "66deacabbddabd67e3c88769",
+    "nameEn": "Beef Bouillon",
+    "descriptionEn": "Beef Bouillon is made by simmering beef with onions, celery, carrots, and herbs. It is used in cocktails to add a robust, beefy flavor and to enhance a drink’s seasoning. Cocktails such as the Bull Shot and the Bloody Bull both contain beef bouillon.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725869228/ingredients/uhka8mpimmgg9255svpn.png",
+    "slug": "beef-bouillon"
+  },
+  {
+    "_id": "66deaccfbddabd67e3c8876a",
+    "nameEn": "Beer",
+    "descriptionEn": "Beer is an alcoholic beverage made by fermenting malted barley or other grains. Yeast is added to convert the sugars into alcohol, and hops are added for bitterness. Beer dates back to around 9500 BCE, meaning that it predates agriculture and the extinction of the mammoth. Beer is typically between 4 and 6% ABV, although certain breweries have produced beers between 10 and 20% ABV, with a few even producing brews of up to 40% ABV.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725869264/ingredients/o3bi0chz2zh9jt12x8jj.png",
+    "slug": "beer"
+  },
+  {
+    "_id": "66deacfdbddabd67e3c8876b",
+    "nameEn": "Benedictine",
+    "descriptionEn": "A cognac-based liqueur with a sweet, herbal flavor. The recipe for Benedictine was developed by Alexander Le Grand in the 19th century; this French drink is made from herbs, aromatics, and fruit peels. The Singapore Sling and Absinthe Cocktail are two Benedictine-laced cocktails.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725869310/ingredients/jg8fqavdvstcihnrr9k9.png",
+    "slug": "benedictine"
+  },
+  {
+    "_id": "66dead29bddabd67e3c8876c",
+    "nameEn": "Black Pepper",
+    "descriptionEn": "Black pepper is a spice commonly added to food and occasionally to cocktails. Black pepper has a subtle herbal taste with a slightly woody, slightly smoky flavor. Black pepper is most recognized as an additional ingredient in the Bloody Mary, as it complements the spices in this cocktail.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725869355/ingredients/givrgz52vyv48nexy2ab.png",
+    "slug": "black-pepper"
+  },
+  {
+    "_id": "66dead64bddabd67e3c8876d",
+    "nameEn": "Black Tea",
+    "descriptionEn": "Black tea is a tea made by brewing tea leaves. It is one of the strongest teas and has a strong herbal taste. Black tea is used in a variety of cocktails, including Artillery Punch and the Rosy Persian.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725869414/ingredients/ncxandcs4hmkyvtkyoxm.png",
+    "slug": "black-tea"
+  },
+  {
+    "_id": "66dead8abddabd67e3c8876e",
+    "nameEn": "Blackberry",
+    "descriptionEn": "Blackberries are small, sweet, dark fruits with a slightly bitter aftertaste. Blackberries are used in Blackberry Mojitos, where they are muddled in a glass with lime and mint. Blackberries are also used in some sangrias.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725869451/ingredients/zsyjmm7pwgkgtkj6mxgm.png",
+    "slug": "blackberry"
+  },
+  {
+    "_id": "66deae2fbddabd67e3c8876f",
+    "nameEn": "Blackberry Liqueur",
+    "descriptionEn": "A blackberry-flavored liqueur made by infusing blackberries with alcohol and sugar. Blackberry liqueurs are very popular in mountainous regions and are used in a number of cocktails, the most famous being the Rum Runner and the Purple People Eater.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725869616/ingredients/wwu1a560wcql48ejay3u.webp",
+    "slug": "blackberry-liqueur"
+  },
+  {
+    "_id": "66deae8abddabd67e3c88770",
+    "nameEn": "Blue Curaçao",
+    "descriptionEn": "A sweet, blue-colored liqueur that tastes like oranges and comes from the Caribbean island of Curacao. First made by the Senior family in he 19th century, Blue Curacao is used in the Blue Lagoon cocktail, as well as the Purple Rain",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725869708/ingredients/kr34exxt9i4zh87dhozz.png",
+    "slug": "blue-curacao"
+  },
+  {
+    "_id": "66deaf8abddabd67e3c88771",
+    "nameEn": "Bourbon",
+    "descriptionEn": "Bourbon whiskey is an American spirit made from at least 51% corn. Boubon is aged in newly charred oak barrels and is bottled between 40 and 80% ABV. While a variety of people have been credited with inventing bourbon, there is no definite proof of its origins. Bourbon only developed into the drink we known today in the late 1800s, making it quite young for a major spirit. It is thought to have originated with Scottish immigrants working in Kentucky",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725869964/ingredients/pbsnv9fojvrrrgckt5pb.png",
+    "slug": "bourbon"
+  },
+  {
+    "_id": "66deafc8bddabd67e3c88772",
+    "nameEn": "Brandy",
+    "descriptionEn": "Brandy is made by distilling wine and is typically between 35 and 60% ABV. Brandy has a woody, floral flavor and is usually aged in wooden casks to give the spirit its characteristic flavor and color, although some manufacturers use caramel flavoring instead. Brandy dates back to the 1100s, when merchants distilled wine to make it easier to transport on long journeys.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725870026/ingredients/rxbzkkykfbztnzadigab.png",
+    "slug": "brandy"
+  },
+  {
+    "_id": "66deaffabddabd67e3c88773",
+    "nameEn": "Butter",
+    "descriptionEn": "Dairy product made by churning (shaking up using a special device) fermented or fresh milk or cream until butterfat and buttermilk are separated. Butterfat is used as the main component of butter.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725870075/ingredients/kt7khpmmg11x4znegcmx.png",
+    "slug": "butter"
+  },
+  {
+    "_id": "66deb037bddabd67e3c88774",
+    "nameEn": "Butterscotch Liqueur",
+    "descriptionEn": "Butterscotch (or Buttershots) liqueur is a sweet mild liqueur made from butter and brown sugar combined with a neutral base spirit. It is usually about 15-20% alcohol.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725870136/ingredients/vqg6qa37nwphmh2gduoj.png",
+    "slug": "butterscotch-liqueur"
+  },
+  {
+    "_id": "66deb069bddabd67e3c88775",
+    "nameEn": "Cachaça ",
+    "descriptionEn": "Cachaça is a spirit made in Brazil from the fermented and distilled juice of fresh sugarcane. Cachaça is usually between 38 and 48% ABV. Cachaça dates back to the early 1500s, when the Portuguese brought sugar cane to Brazil and began distilling it. The most famous drink involving Cachaca is the Caipirinha, which contains Cachaça, sugar, and lime. The Caipirinha is Brazil's national drink.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725870186/ingredients/q6ndypymeueud6sm3nep.png",
+    "slug": "cachaca"
+  },
+  {
+    "_id": "66deb0c5bddabd67e3c88776",
+    "nameEn": "Calvados ",
+    "descriptionEn": "An apple brandy from the Lower Normandy region of France, Calvados is aged in oak casks and has a very sweet apple taste with a smoky aftertaste. Historical mentions of Calvados date back to the 8th century, but the first known distillery was founded in 1554. The Applejack Highball and Apple Pie Martini both feature Calvados as an ingredient, but it is also commonly served neat at room temperature",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725870279/ingredients/qpwwlw9wwxzsfx0qvlb7.png",
+    "slug": "calvados"
+  },
+  {
+    "_id": "66deb0e9bddabd67e3c88777",
+    "nameEn": "Campari",
+    "descriptionEn": "Campari, a bitter liqueur made in Italy, is usually between 20 and 28% ABV. Made by infusing fruits and herbs with alcohol and water, Campari has a bitter, herbal flavor. Invented by Gaspar Campari in Italy in 1860, Campari originally achieved its color from crushed insects, although these are no longer part of the recipe. Campari is an essential ingredient in the Negroni cocktail, which also includes gin and vermouth.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725870314/ingredients/eofhnxvkezos3gpwvbwx.png",
+    "slug": "campari"
+  },
+  {
+    "_id": "66deb11bbddabd67e3c88778",
+    "nameEn": "Celery ",
+    "descriptionEn": "Celery is a light, watery vegetable that is green in color. Celery is more often used as a refreshing garnish than a flavour enhancer. Celery is best known in the cocktail world as a garnish for the Bloody Mary, as it soaks up some of the juice and offers a refreshing complement to the drink’s heavy flavor.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725870364/ingredients/cmnbyjnwv2zxq0jdbmht.png",
+    "slug": "celery"
+  },
+  {
+    "_id": "66deb167bddabd67e3c88779",
+    "nameEn": "Chartreuse green",
+    "descriptionEn": "A French liqueur made from distilled alcohol aged with 130 herbs, plants and flowers. Chartreuse is named after the Grande Chartreuse Monastery, located in the Grenoble region of France.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725870557/363002-b_large_zbqijo.webp",
+    "slug": "chartreuse-green"
+  },
+  {
+    "_id": "66deb1a9bddabd67e3c8877a",
+    "nameEn": "Chartreuse yellow",
+    "descriptionEn": "A French liqueur made from distilled alcohol aged with 130 herbs, plants and flowers. Yellow Chartreuse is milder (40% ABV) and sweeter than Green Chartreuse. Chartreuse is named after the Grande Chartreuse monastery, located in the Grenoble region of France.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725870506/ingredients/nux3h9uyn7vprbctnhil.png",
+    "slug": "chartreuse-yellow"
+  },
+  {
+    "_id": "66deb577bddabd67e3c8877b",
+    "nameEn": "Cherry brandy",
+    "descriptionEn": "Cherry brandy is a liqueur made from the juice of red cherries and has a very sweet, full-bodied cherry flavor. Cherry brandy usually has an ABV of 25%. Cherry brandy has been made in France since the 16th century and is typically served neat, on the rocks, or in cocktails such as the Singapore Sling or Electric Kool-Aid.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725871480/ingredients/cepfzimu3uqptnleimor.png",
+    "slug": "cherry-brandy"
+  },
+  {
+    "_id": "66deb5aabddabd67e3c8877c",
+    "nameEn": "Chili",
+    "descriptionEn": "Chilis are sweet, spicy peppers used in foods and cocktails for their flavor and aroma. A traditional cocktail that uses chilis as a flavor-enhancer is the Spicy Asian.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725871531/ingredients/itlmmoopqs1bdaziko0z.png",
+    "slug": "chili"
+  },
+  {
+    "_id": "66deb5c9bddabd67e3c8877d",
+    "nameEn": "Chili powder",
+    "descriptionEn": "Chili powder is a spice blend, consisting of dried chili pepper, sometimes combined with other herbs and spices. It can be made from many different kinds of chiles, and the level of heat can range from very mild to red-hot.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725871562/ingredients/tfeakgmtkxvgbogkodkr.png",
+    "slug": "chili-powder"
+  },
+  {
+    "_id": "66deb5efbddabd67e3c8877e",
+    "nameEn": "Chocolate",
+    "descriptionEn": "Chocolate is a rich, dark, typically sweetened food made from the seed of the Theobroma cacao tree. Chocolate is sweet and smooth, and can be used in a variety of dessert cocktails. The Mexican Mudslide, Irish Chocolate, and New York Hot Chocolate all use chocolate as an ingredient.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725871601/ingredients/cr6l3bygywhmsarkmodc.png",
+    "slug": "chocolate"
+  },
+  {
+    "_id": "66deb61abddabd67e3c8877f",
+    "nameEn": "Chocolate Syrup ",
+    "descriptionEn": "A syrup that is made from and tastes like chocolate. A popular cocktail made with chocolate syrup is the Chocolate Espresso Martini.",
+    "tags": [
+      2,
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725871644/ingredients/dmr1bftbalpxiib4g6zm.png",
+    "slug": "chocolate-syrup"
+  },
+  {
+    "_id": "66deb653bddabd67e3c88780",
+    "nameEn": "Cinnamon",
+    "descriptionEn": "Cinnamon sticks are sweet, savory sticks with a slightly spicy flavor. They are used primarily as a garnish for cocktails, where they add a hint of flavor and also serve as a decorative element. Cinnamon sticks are used as a garnish and to complement the flavor of sweet spicy drinks, namely those containing spiced rum.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725871701/ingredients/qjjleepc6ftie0rzry2e.png",
+    "slug": "cinnamon"
+  },
+  {
+    "_id": "66deb695bddabd67e3c88781",
+    "nameEn": "Clove",
+    "descriptionEn": "Cloves, the flower buds of the clove tree, have a spicy, pungent, aromatic taste. When added to cocktails such as Hot Buttered Rum, Russian Tea, or Whiskey Hot Toddies, they provide a nice hit of aromatic spice.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725871766/ingredients/xcqrzlprvt6moh1cj6hl.png",
+    "slug": "clove"
+  },
+  {
+    "_id": "66deb6ccbddabd67e3c88782",
+    "nameEn": "Cocoa Powder",
+    "descriptionEn": "A powder made from roasted and ground cacao beans, after most of the cocoa butter (fat) has been removed. Generally used for cooking and baking, cocoa powder can be sprinkled on cocktails as a garnish.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725871821/ingredients/dggqmiyo5tjesyewvy3y.png",
+    "slug": "cocoa-powder"
+  },
+  {
+    "_id": "66deb6fabddabd67e3c88783",
+    "nameEn": "Coconut cream",
+    "descriptionEn": "Coconut cream is similar to coconut milk, the main difference being that coconut cream is thicker and richer because it contains less water. Coconut cream is made by simmering shredded coconut with water, and it may be sweetened or unsweetened. Coconut milk is often confused with coconut cream, and some products that are sold as coconut milk are in fact coconut cream.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725871868/ingredients/wfrwsnfadryythpe2dnu.png",
+    "slug": "coconut-cream"
+  },
+  {
+    "_id": "66deb740bddabd67e3c88784",
+    "nameEn": "Coconut Milk",
+    "descriptionEn": "Coconut milk is a slightly sweet juice with a high oil content that is made by mixing grated coconut meat with warm water. Coconut milk is often confused with coconut cream, and some products sold as coconut milk are in fact coconut cream. Coconut milk and coconut cream are most often used in tropical drinks, such as the Pina Colada. In the Solomon Islands, an alcoholic beverage is made by fermenting coconut milk with yeast and sugar.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725871937/ingredients/swnba08cwcjvulxc4ua6.webp",
+    "slug": "coconut-milk"
+  },
+  {
+    "_id": "66deb780bddabd67e3c88785",
+    "nameEn": "Coconut Syrup",
+    "descriptionEn": "Coconut syrup is a sweet, coconut-flavored syrup made by boiling down a mixture of coconut juice, coconut flakes and sugar. Coconut syrup is used in the Hula Shake, Pina Colada, and Malibu Massage to bring sweetness and coconut flavor to these cocktails.",
+    "tags": [
+      2,
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725872002/ingredients/vyqhucl2l4vcv04dkkq0.png",
+    "slug": "coconut-syrup"
+  },
+  {
+    "_id": "66deb7b1bddabd67e3c88786",
+    "nameEn": "Coffee",
+    "descriptionEn": "Coffee is a brewed beverage made with roasted coffee beans and water. Coffee has probably been around since 15th century Yemen. Coffee is popular in cocktails when mixed with Irish whiskey to make Irish Coffee, although it is also common to mix creamy liqueurs such as Baileys or Kahlua with coffee.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725872050/ingredients/h8b0yus6r69opc2w2j0o.png",
+    "slug": "coffee"
+  },
+  {
+    "_id": "66deb7d7bddabd67e3c88787",
+    "nameEn": "Coffee Beans",
+    "descriptionEn": "Coffee beans are the strong, dark beans that coffee is made from. In cocktail recipes, coffee beans are often used as a garnish, especially for drinks like the Coffee Martini. Coffee beans are also frequently floated on Sambuca as a garnish.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725872088/ingredients/xuge2gzrcgsosffbbcnt.png",
+    "slug": "coffee-beans"
+  },
+  {
+    "_id": "66deb801bddabd67e3c88788",
+    "nameEn": "Coffee Liqueur",
+    "descriptionEn": "A coffee liqueur is a drink made to taste like coffee and is usually between 20 and 25% ABV. Coffee liqueurs are consumed in great quantities worldwide and are usually used to add zest to hot coffee. They can also be served alone or in cocktails such as the White Russian or the B-52.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725872130/ingredients/b6axqn9vfltpzhuq5jbz.png",
+    "slug": "coffee-liqueur"
+  },
+  {
+    "_id": "66deb82ebddabd67e3c88789",
+    "nameEn": "Cognac",
+    "descriptionEn": "A type of brandy made from the Ugni Blanc grape, cognac is distilled twice in a copper pot still and aged for a minimum of two years in French oak casks. Most cognacs are aged much longer than two years. Grand Marnier is an orange-flavored liqueur made from cognac and distilled orange bitters. Hennessy and Remi Martin are two of the largest bottlers of cognac in the world.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725872175/ingredients/uyvvmcmxzj0j03x1zi07.png",
+    "slug": "cognac"
+  },
+  {
+    "_id": "66deb857bddabd67e3c8878a",
+    "nameEn": "Cointreau",
+    "descriptionEn": "Cointreau is a sweet orange-flavored liqueur first created in 1849 by Adolphe Cointreau, a confectioner, and his brother Edouard-Jean Cointreau. The liqueur is bottled at 40% ABV and can be substituted for Triple Sec. Cointreau is at the heart of many famous cocktails. Several recipes claiming to be the original Margarita include Cointreau, as does the IBA-approved recipe for the Cosmopolitan.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725872217/ingredients/hrmnv4ktcdpscvhhjexe.png",
+    "slug": "cointreau"
+  },
+  {
+    "_id": "66deb8dcbddabd67e3c8878b",
+    "nameEn": "Cola",
+    "descriptionEn": "Cola is a sweet, carbonated beverage that contains caffeine and subtle vanilla flavorings. Cola was first invented in 1886 when pharmacist John Pemberton invented the most famous cola, Coca-Cola. Today, cola is an incredibly popular mixer for sweeter liquors like whiskey and rum. The Jack and Coke and the Captain and Coke are two of the most requested mixed drinks in the world.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725872350/ingredients/lekdc8sc9etwpqelpnjv.png",
+    "slug": "cola"
+  },
+  {
+    "_id": "66debf02bddabd67e3c8878c",
+    "nameEn": "Cranberry Juice",
+    "descriptionEn": "Cranberry juice is a tart juice made from pressed cranberries. It is most often mixed with vodka to make drinks such as the Vodka Cranberry, the Cape Cod, and the Sea Breeze because of its tartness and dark red color.",
+    "tags": [
+      5
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725873923/ingredients/yzqzbhg5k0a93tayxf8a.png",
+    "slug": "cranberry-juice"
+  },
+  {
+    "_id": "66debf9ebddabd67e3c8878d",
+    "nameEn": "Cream",
+    "descriptionEn": "Cream is a dairy product composed of the higher fat components of cow's milk. It has a rich, creamy texture and is much thicker than milk. Cream is used in cocktails to thicken them and is very popular in Pina Coladas, White Russians, Mud Slides, and Irish Coffees.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874079/ingredients/hcvype4bzumshhfa2opj.webp",
+    "slug": "cream"
+  },
+  {
+    "_id": "66debfd7bddabd67e3c8878e",
+    "nameEn": "Crème de Violette",
+    "descriptionEn": "A liqueur made with violet flower flavoring over a brandy base, neutral spirit base, or both. Crème de Violette is very sweet and has a floral taste. This liqueur dates back to the early 1800s when it was served as a cordial or combined with vermouth. Crème de Violette is a critical ingredient in the Aviation cocktail.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874136/ingredients/iee0webzex6ul4ysfriq.webp",
+    "slug": "creme-de-violette"
+  },
+  {
+    "_id": "66dec039bddabd67e3c8878f",
+    "nameEn": "Crème de Cacao Brown",
+    "descriptionEn": "A brown, chocolate-flavored liqueur with an ABV of 20 to 25%, Crème de Cacao uses more sugar than traditional liqueurs, giving it a syrupy texture. Made from cacao seeds, Crème de Cacao has gained popularity since the mid-20th century. The Tootsie Roll, Brown-Eyed Girl, and Foxy Lady are the main cocktails that use Crème de Cacao.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874234/ingredients/rloqgb0loz7jxikl4rgy.png",
+    "slug": "creme-de-cacao-brown"
+  },
+  {
+    "_id": "66dec069bddabd67e3c88790",
+    "nameEn": "Crème de Cacao White",
+    "descriptionEn": "White Crème de Cacao is typically the right liqueur to use if a recipe calls for it, as opposed to its chocolate-colored counterpart. White Crème de Cacao is a colorless chocolate-flavored liqueur made from the cacao seed, with an ABV of 20%. The Espresso Martini, China White, and Almond Joy all call for White Crème de Cacao.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874282/ingredients/ohqzkkvgdbntf6lkql9f.png",
+    "slug": "creme-de-cacao-white"
+  },
+  {
+    "_id": "66dec09ebddabd67e3c88791",
+    "nameEn": "Creme de Cassis",
+    "descriptionEn": "Crème de Cassis is a sweet, red, blackcurrant-flavored liqueur with an ABV of 20%. It was first made in 1841 in France, which is still its most popular market. Crème de Cassis is an integral ingredient in Kir, which combines white wine with Crème de Cassis, and is topped with a lemon peel.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874335/ingredients/pa6r4kqhyafdabqhblbd.png",
+    "slug": "creme-de-cassis"
+  },
+  {
+    "_id": "66dec0c8bddabd67e3c88792",
+    "nameEn": " Creme de Menthe Green",
+    "descriptionEn": "A sweet, mint-flavored alcoholic beverage, Crème de Menthe is 25% ABV, and it's green color results from the inclusion of mint leaves or green coloring. Green Crème de Menthe is used in place of its white counterpart when a cocktail, such as the Grasshopper or the Stinger, calls for green color.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874377/ingredients/qfihw23fcvxsryj6l0wj.png",
+    "slug": "creme-de-menthe-green"
+  },
+  {
+    "_id": "66dec0efbddabd67e3c88793",
+    "nameEn": "Creme de Menthe White",
+    "descriptionEn": "White Crème de Menthe is indistinguishable in taste from Green Crème de Menthe, the only difference being its color. If a cocktail does not call for green coloring, White Crème de Menthe is used. Cocktails that use Crème de Menthe White include the Girl Scout Thin Mint Cookie and the Champagne Blitz.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874417/ingredients/gydkodnsatcxafhgtfan.png",
+    "slug": "creme-de-menthe-white"
+  },
+  {
+    "_id": "66dec129bddabd67e3c88794",
+    "nameEn": "Cucumber ",
+    "descriptionEn": "A slightly bitter fruit that grows on a creeping vine, the cucumber consists of 95% water, making it a refreshing addition to certain cocktails. It can also be used as a garnish, in round slices or sliced lengthwise to create ribbons.",
+    "tags": [
+      4,
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874475/ingredients/mjsyrlxigc3buhcwudgf.png",
+    "slug": "cucumber"
+  },
+  {
+    "_id": "66dec196bddabd67e3c88795",
+    "nameEn": "Dark Rum",
+    "descriptionEn": "Distilled from sugarcane byproducts and aged in charred oak barrels for a bold, smoky flavor, dark rums evolved some time after white rums, when plantation-owners began to age their rums for flavor. Dark rums are often used in cooking but are also popular ingredients in mixed drinks, including the Painkiller, the Zombie, and the Mai Tai.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874583/ingredients/ukwxraznadrtd9j9quh7.png",
+    "slug": "dark-rum"
+  },
+  {
+    "_id": "66dec1dbbddabd67e3c88796",
+    "nameEn": "Drambuie",
+    "descriptionEn": "Drambuie is a sweet liqueur made from malt whiskey, herbs, spices, and honey. Legend has it that Prince Charles Edward Stuart, known as Bonnie Prince Charles, gave the recipe to the Clan Mackinnon on the Isle of Skye as a thank-you gift for letting him stay with them. The recipe eventually found its way to a hotel owner on Skye named James Ross, who further developed it and began producing the liqueur for his patrons. Today, Drambuie is produced in Broxburn, Scotland.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874652/ingredients/etodox6degbvetmschpa.png",
+    "slug": "drambuie"
+  },
+  {
+    "_id": "66dec21ebddabd67e3c88797",
+    "nameEn": "Dry Sherry",
+    "descriptionEn": "Fortified wine at 15-17% ABV, produced by complete fermentation of selected grape varieties. Fino sherry is most often used in cocktails, but substitution with other types like Oloroso and Amontillado or even dry vermouth should be OK too.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874720/ingredients/ltbnlwogxai2ywyu8h7e.png",
+    "slug": "dry-sherry"
+  },
+  {
+    "_id": "66dec265bddabd67e3c88798",
+    "nameEn": "Dry Vermouth",
+    "descriptionEn": "A fortified wine, dry vermouth is normally between 15 and 18% ABV. Dry vermouths tend to have herbal, caramel-like flavors with many different aromas. Frenchman Joseph Noilly produced the first dry vermouth in 1800. Dry vermouth is most recognized as the vermouth to use in a martini.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874790/ingredients/edjiajjcurhcfgrceasp.png",
+    "slug": "dry-vermouth"
+  },
+  {
+    "_id": "66dec2a4bddabd67e3c88799",
+    "nameEn": "Dubonnet",
+    "descriptionEn": "An aperitif drink based on fortified wine, with addition of herbs and spices. Alcohol by volume varies from 14 to 17% depending on the manufacturer. The history of Dubonnet goes back to 1846, when this aperitif was first sold by its creator Joseph Dubonnet in France, responding to a competition run by the French Government to find a way of helping French Foreign Legionnaires to drink quinine, which was an effective (but bitter) way to combat malaria.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874853/ingredients/m0q9dc2lxlaoiiflar6k.png",
+    "slug": "dubonnet"
+  },
+  {
+    "_id": "66dec2eabddabd67e3c8879a",
+    "nameEn": "Egg",
+    "descriptionEn": "Eggs lend richness, as well as a creamy, silky texture and a bit of foam when used in cocktails. Two cocktails that use raw eggs include the Round Robin and the Pisco Sour, which combines Pisco, egg, lime juice, Angostura bitters, and simple syrup.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874924/ingredients/dqcvpkrgfseog45x49tb.png",
+    "slug": "egg"
+  },
+  {
+    "_id": "66dec330bddabd67e3c8879b",
+    "nameEn": "Egg Liqueur",
+    "descriptionEn": "Egg liqueurs are alcoholic beverages made from eggs, sugar and brandy. They have a custard flavor with hints of vanilla, and a smooth and creamy texture, much like eggnog. Egg liqueurs tend to be between 14 and 20% ABV. Dutch in origin, egg liqueurs are generally served neat at room temperature. They are also frequently blended with whiskey.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725874993/ingredients/avaaqsa2p4wcmjzikls2.png",
+    "slug": "egg-liqueur"
+  },
+  {
+    "_id": "66dec380bddabd67e3c8879c",
+    "nameEn": "Elderflower Cordeial",
+    "descriptionEn": "A sweet syrup made by infusing concentrated sugar syrup with elderflower heads. It is often consumed as a soft drink diluted with water.",
+    "tags": [
+      2,
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875074/ingredients/qrabcnc0r7h8wajfmixq.png",
+    "slug": "elderflower-cordeial"
+  },
+  {
+    "_id": "66dec3b6bddabd67e3c8879d",
+    "nameEn": "Falernum",
+    "descriptionEn": "A sweet and spicy syrup or liqueur from the Caribbean that dates back to the 18th century. It is usually flavored with lime, ginger, almond, allspice and cloves. Falernum is used in tropical drinks like the Illegal or Zombie.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875127/ingredients/wz4axuldtxwgphcipcqv.png",
+    "slug": "falernum"
+  },
+  {
+    "_id": "66dec41dbddabd67e3c8879e",
+    "nameEn": "Fernet",
+    "descriptionEn": "An Italian bitter herbal liqueur based on distilled grape spirits. It is usually around 45% ABV. Fernet is popular as a digestif or a cocktail ingredient (such as in the Hanky Panky). The herbs used during its production vary by brand but usually include chamomile, rhubarb, myrrh, saffron and cardamom.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875231/ingredients/d24neloq3zx71crqphdv.png",
+    "slug": "fernet"
+  },
+  {
+    "_id": "66dec478bddabd67e3c8879f",
+    "nameEn": "Frangelico",
+    "descriptionEn": "Frangelico, produced in the Italian town of Canale, is probably the most popular brand of hazelnut liqueur. A sweet, mild liqueur containing 20% ABV, Frangelico can be simply served on ice or added to coffee.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875321/ingredients/rhrmdp4tzby9wvzh36tc.png",
+    "slug": "frangelico"
+  },
+  {
+    "_id": "66dec49abddabd67e3c887a0",
+    "nameEn": "Galliano",
+    "descriptionEn": "Galliano is a sweet, Italian herbal liqueur that contains flavors of licorice, anise, and vanilla. Galliano ranges from 30 to 42% ABV.  A brandy distiller in Tuscany, Arturo Vaccari, invented Galliano in 1896 and named it after Italian war hero Giuseppe Galliano. Yellow in color, Galliano is used as a digestif and as an ingredient in drinks such as the Harvey Wallbanger and the Golden Cadillac.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875355/ingredients/ctitdlkyfs02urowlnjb.png",
+    "slug": "galliano"
+  },
+  {
+    "_id": "66dec4ddbddabd67e3c887a1",
+    "nameEn": "Gin",
+    "descriptionEn": "A spirit made from the distillation of grains, such as barley or corn, with juniper added as the predominant flavor, gin is typically around 40% ABV. Gin was first made in the 17th century by a Dutch physician named Franciscus Sylvius, who used it as a pharmaceutical treatment for kidney problems. Gin became an incredibly popular alcoholic beverage in late 17th century England during the “Gin Craze”. Gin is a classic in bars for its easy mixing properties.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875423/ingredients/kpdq1ltraoky0en7viv9.png",
+    "slug": "gin"
+  },
+  {
+    "_id": "66dec4fdbddabd67e3c887a2",
+    "nameEn": "Ginger",
+    "descriptionEn": "The root of a flowering plant widely used as a spice and in folk medicine.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875454/ingredients/bmkrwj3znsqzgjm3jyvk.png",
+    "slug": "ginger"
+  },
+  {
+    "_id": "66dec53bbddabd67e3c887a3",
+    "nameEn": "Ginger Ale",
+    "descriptionEn": "Ginger ale is a carbonated soft drink flavored with ginger. Dr. Thomas Cantrell claims to have invented ginger ale, which would mean it has been around since 1851. Ginger ale is used as a mixer with many different liquors; its most popular use is as a mixer for whiskey. In Jamaica, it’s very common to mix ginger ale with Red Stripe beer.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875517/ingredients/wz58bxgl01rqpv0ljbfj.png",
+    "slug": "ginger-ale"
+  },
+  {
+    "_id": "66dec560bddabd67e3c887a4",
+    "nameEn": "Ginger Beer",
+    "descriptionEn": "Ginger beer is a carbonated beverage flavored primarily with ginger. The production of alcoholic ginger beer began in 2009 in the UK with Crabbie's Alcoholic Ginger Beer. Ginger beer also makes a great mixer for drinks like the Dark 'N Stormy or the Moscow Mule.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875553/ingredients/jqbkcudfndvihtvcbobp.png",
+    "slug": "ginger-beer"
+  },
+  {
+    "_id": "66dec58cbddabd67e3c887a5",
+    "nameEn": "Gold Rum",
+    "descriptionEn": "Also known as amber rums, gold rums are the middle ground between white and dark rum, and are aged from three to twelve years. Dating back to the 17th century and the Caribbean plantations where they were first distilled, gold rums, like their white and dark counterparts, are made from sugarcane byproducts. They develop a complex oak flavor from the barrels used to age them. ",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875597/ingredients/s0febvdp8rdmckdstxe2.png",
+    "slug": "gold-rum"
+  },
+  {
+    "_id": "66dec60bbddabd67e3c887a6",
+    "nameEn": "Goldschlager",
+    "descriptionEn": "Goldschlager is a cinnamon schnapps liqueur with an ABV of 43.5%. The thin, golden flakes that float in the bottle are added for marketing purposes. Goldschlager has a very fiery, cinnamon flavor. Originally from Switzerland, Diageo acquired the brand and began manufacturing it in Italy. Goldschlager is incredibly popular for both its flavor and its signature gold flakes, and is used in drinks such as Liquid Cocaine.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875725/ingredients/dlhngti9v5pp8to5o6qt.png",
+    "slug": "goldschlager"
+  },
+  {
+    "_id": "66dec62abddabd67e3c887a7",
+    "nameEn": "Grand Marnier",
+    "descriptionEn": "An orange-flavored brandy liqueur, Grand Marnier is 40% ABV. Grand Marnier was created by Alexander Marnier-Lapostolle in 1880. It can be served neat, or as part of a cocktail. Some margarita recipes call for Grand Marnier instead of Cointreau, as do certain Cosmopolitan recipes.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875755/ingredients/a0d1xtvxqpyt6gt1jhvm.png",
+    "slug": "grand-marnier"
+  },
+  {
+    "_id": "66dec65fbddabd67e3c887a8",
+    "nameEn": "Grapefruit",
+    "descriptionEn": "Semisweet-sour citrus fruit, a hybrid of sweet orange and pomelo originating in Barbados.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875808/ingredients/s355dhdl2xsih7xul4xp.png",
+    "slug": "grapefruit"
+  },
+  {
+    "_id": "66dec680bddabd67e3c887a9",
+    "nameEn": "Grapefruit Juice",
+    "descriptionEn": "Grapefruit juice is the sweet-tart juice from grapefruits. It is typically mixed into cocktails, such as the Hurricane, or combined with vodka and cranberry juice to make a Sea Breeze.",
+    "tags": [
+      5
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875842/ingredients/kjnw8fjynvvhnyig1zkr.png",
+    "slug": "grapefruit-juice"
+  },
+  {
+    "_id": "66dec6bdbddabd67e3c887aa",
+    "nameEn": "Grappa",
+    "descriptionEn": "An alcoholic beverage, grappa is grape brandy made by distilling grape pomace that is left over from winemaking. Grappa is usually 40–60% ABV and is traditionally produced in Northern Italy or in the Italian part of Switzerland.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875902/ingredients/lvcpg3721lo01jgxdsaj.png",
+    "slug": "grappa"
+  },
+  {
+    "_id": "66dec6ecbddabd67e3c887ab",
+    "nameEn": "Grated Cinnamon",
+    "descriptionEn": "Cinnamon, when grated over a cocktail, adds a hint of savory sweetness while also adding a mild spiciness. Cinnamon is most often grated onto cocktails such as the Pina Colada, Apple Pie Shooter, and other sweet, flavorful drinks.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725875950/ingredients/mbanio37lmme5ggomqbu.png",
+    "slug": "grated-cinnamon"
+  },
+  {
+    "_id": "66dec72fbddabd67e3c887ac",
+    "nameEn": "Grated Nutmeg",
+    "descriptionEn": "Nutmeg is a strong spice that is best when added to sweet cocktails to give drinks more zest. Grated nutmeg is most commonly used in cocktails like the Old Fashioned, Hot Butter Rum, Whiskey Eggnog, and Guinness Punch.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876016/ingredients/nobfsmyjy2kxkd88chap.png",
+    "slug": "grated-nutmeg"
+  },
+  {
+    "_id": "66dec755bddabd67e3c887ad",
+    "nameEn": "Grenadine",
+    "descriptionEn": "Grenadine is a strongly flavored red syrup made from pomegranates and red currants. Grenadine began showing up in cocktail recipe books in the late 19th century, and became extremely popular in the 1910s. Grenadine is often used in cocktails because of its flavor and color. The Shirley Temple, Red Death, and Tequila Sunrise all call for grenadin",
+    "tags": [
+      2,
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876054/ingredients/cvmdsdsl8ij4wdwmxfnx.png",
+    "slug": "grenadine"
+  },
+  {
+    "_id": "66dec78abddabd67e3c887ae",
+    "nameEn": "Hennessy",
+    "descriptionEn": "Hennessy is a popular brand of cognac with fruity undertones that compliment its smoothness. It is bottled at 40% ABV. Hennessy is the world's largest cognac producer and sells nearly 50 million bottles annually. Hennessy's founder and namesake, Richard Hennessy, founded the company’s first distillery in France in 1765. Hennessy is traditionally served straight at room temperature, although Hennessy and Coke is a popular American mixed drink.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876107/ingredients/xafp4k9ogvmoaoulzpeq.png",
+    "slug": "hennessy"
+  },
+  {
+    "_id": "66dec7abbddabd67e3c887af",
+    "nameEn": "Honey",
+    "descriptionEn": "Honey is a viscous liquid sweetener with subtle flower and fruit flavors. Cocktails that use honey as an ingredient include the Bee's Kiss, Hot Toddy, Dutch Treat, and Bahama Breeze.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876141/ingredients/xb7wsnuetgv5lyeko3sl.png",
+    "slug": "honey"
+  },
+  {
+    "_id": "66dec7e8bddabd67e3c887b0",
+    "nameEn": "Honey Syrup",
+    "descriptionEn": "Honey syrup is a type of simple syrup in which the sugar is replaced with honey. It can be made by mixing honey with warm water, although some recipes call for vodka in place of water to add potency to the syrup. The most famous cocktail recipe that calls for honey syrup is Gold Rush.",
+    "tags": [
+      2
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876201/ingredients/ffzlmpvxxk05p9uz5wu9.webp",
+    "slug": "honey-syrup"
+  },
+  {
+    "_id": "66dec827bddabd67e3c887b1",
+    "nameEn": "Ice",
+    "descriptionEn": "Ice is the clear, frozen form of water used to chill drinks. Ice is used in the preparation of virtually every cocktail, whether to chill the drink before straining or as part of the cocktail itself. Ice is occasionally added to liquor to help chill it and water it down slightly to achieve more complex flavors.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876265/ingredients/p4vv7cbrkjf2djc7jo0y.png",
+    "slug": "ice"
+  },
+  {
+    "_id": "66dec86abddabd67e3c887b2",
+    "nameEn": "Ice Cream",
+    "descriptionEn": "A cold dessert made with milk, sugar, and sweeteners, ice cream comes in many different flavors. When used in a cocktail, ice cream adds sweet, cold creamy textures to a heavy drink. Ice cream can be added to Guinness to make a Guinness Float, or it can be added to existing cocktail recipes to create a frozen version, such as the Frozen Grasshopper and the Frozen Mudslide.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876332/ingredients/fi0nj9w4nsa6ddx39s89.png",
+    "slug": "ice-cream"
+  },
+  {
+    "_id": "66dec892bddabd67e3c887b3",
+    "nameEn": "Irish Stouts",
+    "descriptionEn": "A dark beer made with roasted malt or barley, hops, yeast, and water, stout is usually 7 or 8% ABV. Irish Stouts have a roasted taste, which is sometimes described as coffee-like. Guinness is one of the most recognized brands of Irish Stout.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876371/ingredients/ftnvdigjjivinggjk2ky.png",
+    "slug": "irish-stouts"
+  },
+  {
+    "_id": "66dec8cebddabd67e3c887b4",
+    "nameEn": "Jack Daniels",
+    "descriptionEn": "A brand of sour mash Tennessee whiskey usually around 40% ABV, Jack Daniel's is filtered through sugar maple charcoal in wooden vats before aging to give the spirit its trademark sweet, smoked wood flavor. Jack Daniel's is the best-selling American whiskey worldwide. The first Jack Daniel's distillery was founded in 1866 by Jasper (Jack) Newton Daniels at the age of 20. Today, Jack Daniel's is a favorite in bars and is most commonly served neat",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876432/ingredients/fbe9202wvjhhhvzrv7sq.png",
+    "slug": "jack-daniels"
+  },
+  {
+    "_id": "66dec904bddabd67e3c887b5",
+    "nameEn": "Jägermeister",
+    "descriptionEn": "A German after-dinner drink bottled at 35% ABV. Fifty-six different spices and herbs are used to make Jägermeister, including licorice, which gives the liqueur its predominant flavor. Curt Mast developed the recipe, which he began producing in 1935. The most famous Jägermeister cocktail is the Jägerbomb, which was originally made by dropping a shot glass of Jägermeister into a glass of beer, both of which were consumed simultaneously as one drink.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876485/ingredients/p3oqbzximvowgutv95bv.png",
+    "slug": "jagermeister"
+  },
+  {
+    "_id": "66dec92fbddabd67e3c887b6",
+    "nameEn": "Kahlua",
+    "descriptionEn": "A rum-based liqueur from Mexico, Kahlua contains dark, rich flavors of coffee and vanilla. Kahlua, meaning “House of the Acolhua People”, was first made in 1936 by Pedro Domecq. Kahlua is used in many notable cocktails, namely the Mudslide, White Russian, Black Russian, B-52, and Espresso Martini.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876529/ingredients/odlvxfmpy5ouuk4i0nfd.png",
+    "slug": "kahlua"
+  },
+  {
+    "_id": "66dec991bddabd67e3c887b7",
+    "nameEn": "Kirsch",
+    "descriptionEn": "A clear fruit brandy made from the double distillation of cherries, usually with an ABV of 40 to 50%. Kirsch originates from the Black Forest region of Germany. The Florida Cocktail and the Ladyfinger both call for kirsch, but traditionally, this spirit is served at room temperature as an after-dinner drink.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876626/ingredients/mommxwv3qiycpnqwclt5.png",
+    "slug": "kirsch"
+  },
+  {
+    "_id": "66dec9bcbddabd67e3c887b8",
+    "nameEn": "Lemon",
+    "descriptionEn": "A tart, pulp-filled yellow fruit is generally used as a cocktail garnish. French Martinis call for a lemon garnish, as do Whiskey Sours. Lemons are also used in sangria. Lemons can also be substituted for limes in Margaritas.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876669/ingredients/lzxycw0gso2kta5eatth.png",
+    "slug": "lemon"
+  },
+  {
+    "_id": "66dec9e4bddabd67e3c887b9",
+    "nameEn": "Lemonade",
+    "descriptionEn": "Lemonade is a sweet, lemon-flavored drink consisting of lemon juice, water, and sugar. Lemonade is used in the Arnold Palmer and is also popular as a mixer in cocktails, such as Pink Panties and the Aftershock.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876709/ingredients/jadvl1l9ue9xkqsb5keh.png",
+    "slug": "lemonade"
+  },
+  {
+    "_id": "66deca0bbddabd67e3c887ba",
+    "nameEn": "Lillet Blanc",
+    "descriptionEn": "A brand of French aperitif wine, Lillet Blanc is a blend of 85% Bordeaux wine and 15% macerated liqueurs. Lillet Blanc has a citrus taste that comes from the orange peels used in its production. The beverage was created in 1872 by Paul and Raymond Lillet, two French brothers from Bordeaux. Lillet Blanc is used in cocktails in the US and the UK, but is traditionally served chilled, or on ice, with a slice of orange",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876749/ingredients/efaafwocofmwgsrd2bmv.png",
+    "slug": "lillet-blanc"
+  },
+  {
+    "_id": "66deca34bddabd67e3c887bb",
+    "nameEn": "Lime",
+    "descriptionEn": "A lime is a sour, green, pulp-filled citrus fruit generally used as a cocktail garnish. Because of their sour citrus flavor, limes are popular additions to margaritas and sangrias. Limes are also used with gin due to their compatible flavors.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876790/ingredients/tst9bbchtadmj8iq2yut.png",
+    "slug": "lime"
+  },
+  {
+    "_id": "66deca57bddabd67e3c887bc",
+    "nameEn": "Limoncello",
+    "descriptionEn": "Limoncello is a lemon-flavored liqueur, made from highly-concentrated alcohol infused with lemon zest. A popular Italian after-dinner drink, its alcohol content tends to be about 30% by volume.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876825/ingredients/ilbapn7sbmz4ay9ceula.png",
+    "slug": "limoncello"
+  },
+  {
+    "_id": "66deca7fbddabd67e3c887bd",
+    "nameEn": "Malibu Coconut Rum",
+    "descriptionEn": "A sweet, coconut-flavored white rum with coconut, almond, and mocha notes, Malibu has an ABV of 21%. Originally created for bartenders to more easily make Pina Coladas, Malibu originated in Curacao as a mix of fruit essences, rum, and coconut. Malibu is still widely used in Pina Coladas, as well as in the Caribou Lou.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876865/ingredients/jws9onlbm9ikgdygx7ku.png",
+    "slug": "malibu-coconut-rum"
+  },
+  {
+    "_id": "66decaafbddabd67e3c887be",
+    "nameEn": "Maple Syrup",
+    "descriptionEn": "A sweet dark syrup made from the circulating fluid, or sap, of sugar maple trees. The Canadian province of Quebec is the largest producer with approximately 70 percent of the world's output.",
+    "tags": [
+      2
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876912/ingredients/inwjf1xavvsxllf0j6x0.png",
+    "slug": "maple-syrup"
+  },
+  {
+    "_id": "66decadfbddabd67e3c887bf",
+    "nameEn": "Maraschino Cherry",
+    "descriptionEn": "A maraschino cherry is a sweetened, preserved cherry coated in sugar syrup. Maraschino cherries were once considered a delicacy and were supplied to royal families. Maraschino cherries can be used to garnish cocktails such as the Manhattan, Tom Collins, and Old Fashioned.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725876961/ingredients/vxaptkyx0nfit5ppejlf.png",
+    "slug": "maraschino-cherry"
+  },
+  {
+    "_id": "66decb31bddabd67e3c887c0",
+    "nameEn": "Maraschino Liqueur",
+    "descriptionEn": "A cherry-flavored liqueur made from marasca cherries and pure cane syrup. It is clear and dry, and sits at 40% ABV. Francesco Drioli invented Maraschino Liqueur in Zara (now Zadar, Croatia) in 1759. Maraschino is most often used in the Brooklyn cocktail and the Blue Devil.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877042/ingredients/nbdrp7koho4sf3r3uzby.webp",
+    "slug": "maraschino-liqueur"
+  },
+  {
+    "_id": "66decb69bddabd67e3c887c1",
+    "nameEn": "Midori",
+    "descriptionEn": "Midori is a sweet, bright green, honeydew-melon-flavored liqueur bottled at 20% ABV. Midori was first made in 1978 and had its launch party at Studio 54 in New York City. Sex with an Alligator, Alien Urine Sample, and the Watermelon Martini all call for Midori.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877098/ingredients/uz7nh4yfcbw5qwj44487.png",
+    "slug": "midori"
+  },
+  {
+    "_id": "66decb90bddabd67e3c887c2",
+    "nameEn": "Milk",
+    "descriptionEn": "Milk is a creamy white dairy product with a subtle flavor. Milk can be used as an ingredient in cocktails to lend them a smooth texture. Milk is most popular as a mixer in drinks such as the Bushwacker and Milky Way Galaxy.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877137/ingredients/icngauitgq593fojap0m.png",
+    "slug": "milk"
+  },
+  {
+    "_id": "66decbb6bddabd67e3c887c3",
+    "nameEn": "Mint",
+    "descriptionEn": "Mint is a green herb with a strong, fresh taste. Mint leaves are used in a variety of different cocktails to add a fresh, clean taste. Mojitos most commonly call for mint leaves, which are mixed with sugar and lime juice, to create a flavor base for the rum. Mint leaves are also used in Mint Juleps.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877175/ingredients/qcuwrls052dmuvccyd9s.png",
+    "slug": "mint"
+  },
+  {
+    "_id": "66decbffbddabd67e3c887c4",
+    "nameEn": "Old Tom Gin",
+    "descriptionEn": "Old Tom Gin is a gin recipe often referred to as the “missing link”, as it is sweeter than London Dry gin but drier than the Dutch gin Genever. Old Tom Gin was popular in England in the 18th century but is incredibly hard to find today. It received its name from the black cat-shaped wooden plaques (Old Tom cats) that historically sat outside hidden pubs.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877248/ingredients/byxrczllik9xqwc9drag.png",
+    "slug": "old-tom-gin"
+  },
+  {
+    "_id": "66decc23bddabd67e3c887c5",
+    "nameEn": "Olive",
+    "descriptionEn": "Olives are salty fruits used as a garnish in different cocktails, the most famous of which is the Martini. Olives have been a popular garnish in Martinis since the turn of the twentieth century. Pitted olives are also sometimes used in Bloody Marys.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877284/ingredients/gsa5euwvnyp8ydb9pigf.png",
+    "slug": "olive"
+  },
+  {
+    "_id": "66decc56bddabd67e3c887c6",
+    "nameEn": "Olive Juice",
+    "descriptionEn": "Olive juice is the dry, salty brine used to preserve olives. Olive juice is extremely bitter and difficult to drink straight, but can be added to cocktails to give them a salty kick. The most famous way to use olive juice behind a bar is to add it to a martini recipe to create a “dirty martini”.",
+    "tags": [
+      5
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877336/ingredients/p5vzx5gl1zzgrccjok4v.webp",
+    "slug": "olive-juice"
+  },
+  {
+    "_id": "66decc84bddabd67e3c887c7",
+    "nameEn": "Onion",
+    "descriptionEn": "Onions are highly pungent, intrusively flavored vegetables often used in cocktails to add a distinctive flavor. The Gent of the Jury is a traditional drink that uses onion as a garnish and flavor-enhancer, and Bloody Marys may also contain onion shavings for extra flavor.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877382/ingredients/ro6xur5gftm2ysdnzcbk.png",
+    "slug": "onion"
+  },
+  {
+    "_id": "66decca4bddabd67e3c887c8",
+    "nameEn": "Orange",
+    "descriptionEn": "Oranges are sweet citrus fruits that are orange in color and used as cocktail garnishes. Certain beers with fruity tones, such as Blue Moon or Shocktop, usually take oranges as a garnish. Oranges can also be used to garnish sangria or Pina Coladas.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877414/ingredients/k1wxusfhxd8hsyltcpp9.png",
+    "slug": "orange"
+  },
+  {
+    "_id": "66deccd5bddabd67e3c887c9",
+    "nameEn": "Orange Bitters",
+    "descriptionEn": "Orange bitters are a type of alcoholic beverage flavored with oranges and herbs to create a citrus-like, bitter addition to cocktail recipes. Orange bitters are made by steeping dried orange peels in gin or other neutral grain spirits. The San Francisco Cocktail and Orange Martini are cocktails that use orange bitters.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877462/ingredients/l8okfk4st7kmtbubkymc.png",
+    "slug": "orange-bitters"
+  },
+  {
+    "_id": "66decd08bddabd67e3c887ca",
+    "nameEn": "Orange Curacao",
+    "descriptionEn": "Made from the distillation of dried bitter orange peels, Orange Curacao is 30% ABV. It was first produced and sold by the Senior family in the 1800s. The Man o' War, Cable Car, and Hawaiian Mai Tai all take Orange Curacao, although it can be served neat or on the rocks.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877513/ingredients/iejpnu3ppmygrcpc5bz1.webp",
+    "slug": "orange-curacao"
+  },
+  {
+    "_id": "66decd31bddabd67e3c887cb",
+    "nameEn": "Orange Juice",
+    "descriptionEn": "Orange Juice is the citrus juice from oranges. Orange juice can be mixed with alcohol to create breakfast cocktails – with vodka to make a Screwdriver or with Champagne for a Mimosa. It can also be mixed with tequila and grenadine to make a Tequila Sunrise.",
+    "tags": [
+      5
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877554/ingredients/ojxzjdf86ookovgbxz2r.png",
+    "slug": "orange-juice"
+  },
+  {
+    "_id": "66decd91bddabd67e3c887cc",
+    "nameEn": "Orange Marmalade",
+    "descriptionEn": "Similar to jam or jelly – but more bitter, due to the inclusion of the rind – orange marmalade is a fruit preserve made from orange peel, pulp and juice, with the addition of sugar and water.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877650/ingredients/gtlwd2qfjd1ufvexde02.png",
+    "slug": "orange-marmalade"
+  },
+  {
+    "_id": "66decdd7bddabd67e3c887cd",
+    "nameEn": "Overproof Rum",
+    "descriptionEn": "151-proof rum or \"over-proof\" rum is a rum with very high alcohol content, usually 60-75% ABV. Over-proof rum is incredibly potent, and is illegal in some countries because of its unusually high alcohol content. Some popular brands include \"Gosling 151 Rum\", \"Wray & Nephew\" and \"Bacardi 151\" (discontinued in 2016). The Hurricane is a very popular drink that uses 151 proof rum;",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877720/ingredients/cnw6kw5vi4m1cpyjukir.png",
+    "slug": "overproof-rum"
+  },
+  {
+    "_id": "66decdfdbddabd67e3c887ce",
+    "nameEn": "Papaya Juice",
+    "descriptionEn": "Papaya juice is the sweet, fruity juice from papayas. Papaya juice is used in drinks such as the Bikini Bottom, Tropical Punch, and Papaya Driver (2 ounces of rum mixed with papaya juice).",
+    "tags": [
+      5
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877758/ingredients/ejvwjlsxjekafaioz4uz.png",
+    "slug": "papaya-juice"
+  },
+  {
+    "_id": "66dece5dbddabd67e3c887cf",
+    "nameEn": "Passion Fruit Juice",
+    "descriptionEn": "Passion fruit juice is a sweet exotic juice and an important ingredient in tropical cocktails such as the Hurricane.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877854/ingredients/lh4s24z66xxvnpuub2ll.png",
+    "slug": "passion-fruit-juice"
+  },
+  {
+    "_id": "66dece87bddabd67e3c887d0",
+    "nameEn": "Passion Fruit",
+    "descriptionEn": "A sour, sweet fruit with juicy yellow pulp and large number of seeds inside",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877897/ingredients/l4r162o9jzgmkq1u2atb.png",
+    "slug": "passion-fruit"
+  },
+  {
+    "_id": "66deced1bddabd67e3c887d1",
+    "nameEn": "Passion Fruit Liqueur",
+    "descriptionEn": "A sweet, passion-fruit-flavored liqueur that usually has an ABV of 15–20%. The most popular brand is Passoã, made in France. Passion fruit liqueur pairs well with tonic or sparkling water and is also an ingredient of a famous cocktail called the \"Porn Star Martini.\"",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725877970/ingredients/ouuhqk9i5knekvgdtcuu.webp",
+    "slug": "passion-fruit-liqueur"
+  },
+  {
+    "_id": "66deceefbddabd67e3c887d2",
+    "nameEn": "Peach",
+    "descriptionEn": "Peaches are sweet, juicy fruits that can be used as cocktail garnishes. Peaches are usually best in sweet drinks and are popularly blended into Peach Daiquiris or used as a garnish for drinks like the Peach Treat.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878001/ingredients/p67p0dwgmfkrl9zdzizw.png",
+    "slug": "peach"
+  },
+  {
+    "_id": "66decf23bddabd67e3c887d3",
+    "nameEn": "Peach bitters",
+    "descriptionEn": "Peach bitters are flavored with peaches and herbs to produce a sweet, bitter peach flavor. Fee Brothers, the largest distributor of peach bitters, has been in business since 1863. Peach bitters are commonly used in cocktails such as the Derby Cocktail and the Citizen Kane.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878053/ingredients/ak8tjk2bjx773ryv1hmn.png",
+    "slug": "peach-bitters"
+  },
+  {
+    "_id": "66decf76bddabd67e3c887d4",
+    "nameEn": "Peach Liqueur",
+    "descriptionEn": "A peach liqueur is any liqueur that is made through the distillation of peaches and has sugar added to it. Peach liqueurs gained popularity in the mid-20th century, but their exact date of origin is unknown. Peach liqueurs are used in the Alabama Slammer and Red Death cocktails.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878135/ingredients/klwlq1ybdvxsi6abrlpc.png",
+    "slug": "peach-liqueur"
+  },
+  {
+    "_id": "66decfdfbddabd67e3c887d5",
+    "nameEn": "Peychaud's Bitters",
+    "descriptionEn": "Peychaud's Bitters is a brand of gentian-based, light-bodied bitters with a sweet, floral aroma and taste. Created in 1830 by Antoine Amédée Peychaud, a pharmacist from Haiti who settled in New Orleans, Peychaud's Bitters is an ingredient in cocktails like the Black Rose and Cajun Water.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878241/ingredients/kjfchdiorqwtjayfeolj.webp",
+    "slug": "peychauds-bitters"
+  },
+  {
+    "_id": "66ded004bddabd67e3c887d6",
+    "nameEn": "Pineapple",
+    "descriptionEn": "Pineapples are sweet, juicy spiky yellow fruits that are sometimes used as cocktail garnishes. Pineapples have a juicy, tropical taste and are best used to garnish Pina Coladas. Pineapple is also used in sangria.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878278/ingredients/gvwsruien5aw5lkawybx.png",
+    "slug": "pineapple"
+  },
+  {
+    "_id": "66ded068bddabd67e3c887d7",
+    "nameEn": "Pineapple Juice",
+    "descriptionEn": "Pineapple juice is the sweet, fruity juice from pineapples. Pineapple juice is most commonly used in a variety of drinks containing tropical juices such as the Zombie, Mai Tai, and Malibu Bay Breeze.",
+    "tags": [
+      5
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878377/ingredients/ea1vqsq32cncfitju8dh.png",
+    "slug": "pineapple-juice"
+  },
+  {
+    "_id": "66ded0fabddabd67e3c887d8",
+    "nameEn": "Pisco",
+    "descriptionEn": "Pisco is a Peruvian or Chilean grape brandy that is clear or yellowish in color. It is grape-based but a wide variety of other fruity and spicy flavors are integral to its taste. Pisco is normally between 35 and 45% ABV. Production of this liquor began as early as the late 16th century. Like most brandies, it is usually served neat, but may also be used to make the Pisco Sour cocktail",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878523/ingredients/slnpcoztjfcun4dbqz5o.png",
+    "slug": "pisco"
+  },
+  {
+    "_id": "66ded124bddabd67e3c887d9",
+    "nameEn": "Pomegranate Juice",
+    "descriptionEn": "Pomegranate juice is the berry-flavored, tart, red juice from pomegranates. Pomegranate juice is featured in cocktails such as the Pomegranate Martini, Desert Breeze, and Malayan Gold",
+    "tags": [
+      5
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878566/ingredients/ke2e3acgyboqyflnqcxy.png",
+    "slug": "pomegranate-juice"
+  },
+  {
+    "_id": "66ded145bddabd67e3c887da",
+    "nameEn": "Raspberry",
+    "descriptionEn": "Raspberries are small, sweet, red fruits with an intense flavor. They can be muddled in a glass, added to shaken cocktails or used as a garnish",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878598/ingredients/f8vit0zjtuaamhttfjzn.png",
+    "slug": "raspberry"
+  },
+  {
+    "_id": "66ded1b0bddabd67e3c887db",
+    "nameEn": "Raspberry Liqueur",
+    "descriptionEn": "A sweet raspberry-flavored liqueur that usually has an ABV of around 16%. One very popular raspberry liqueur is Chambord, which is made from red and black raspberries, honey, cognac and citrus peel.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878706/ingredients/d7ppbjtuxbh26rsynvjp.webp",
+    "slug": "raspberry-liqueur"
+  },
+  {
+    "_id": "66ded1debddabd67e3c887dc",
+    "nameEn": "Red Bull",
+    "descriptionEn": "Red Bull is a popular energy drink; the drink currently is currently produced in a variety of flavour editions, including the Cranberry Edition, which has a taste similar to sour cranberries. Red Bull was first introduced in Thailand in 1976. Red Bull is most often used as the second ingredient in cocktails; for instance, it is combined with Jägermeister in the Jägerbomb. Red Bull is also a common mixer for vodka-based drinks.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878751/ingredients/jckyromj0gves1ryzuwa.png",
+    "slug": "red-bull"
+  },
+  {
+    "_id": "66ded269bddabd67e3c887dd",
+    "nameEn": "Red Vermouth",
+    "descriptionEn": "A sweeter vermouth with fewer herbal tones than white vermouth, red vermouth has been around since its invention in 1786 in Turin, Italy, at the hands of Antonio Benedetto Carpano. Red vermouths are usually consumed straight or on the rocks.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878890/ingredients/rcz1jxmne14wgcs8xhja.webp",
+    "slug": "red-vermouth"
+  },
+  {
+    "_id": "66ded29cbddabd67e3c887de",
+    "nameEn": "Red Wine",
+    "descriptionEn": "A red wine is a medium-to-dark wine made from the fermented juice and skins of dark-colored grapes and typically has an alcohol content between 10 and 12% ABV. The more popular varieties of red wine are Merlot, Pinot Noir, Cabernet Sauvignon, and Shiraz. Red wine has a rich history, dating back to Ancient Egypt.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725878942/ingredients/uhchmydrnzzr3scdgehy.png",
+    "slug": "red-wine"
+  },
+  {
+    "_id": "66ded2f3bddabd67e3c887df",
+    "nameEn": "Rye Whiskey",
+    "descriptionEn": "A whiskey made from a grain mash containing at least 51% rye, rye whiskey has a spicy, fruity flavor acquired from the newly charred white oak barrels used to aged it. Rye whiskey was enormously popular in the northeastern United States, but lost much of its hold on the region after Prohibition. Rye and Ginger, the Sazerac Cocktail, and Rye and Pepper are a few of rye whiskey's most well-known cocktail mixes.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879029/ingredients/so9lx2pu263fotgunskq.webp",
+    "slug": "rye-whiskey"
+  },
+  {
+    "_id": "66ded314bddabd67e3c887e0",
+    "nameEn": "Salt",
+    "descriptionEn": "Salt is refined sodium chloride used to add flavor and bite to food or cocktails. In cocktails, salt is perhaps most recognized as the ingredient used to coat the rims of margarita glasses, since salt goes very well with citrus flavors. Salt is also commonly used as a chaser with lime after a silver tequila shot.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879061/ingredients/omk5jdgpl8e6nrocxsco.png",
+    "slug": "salt"
+  },
+  {
+    "_id": "66ded336bddabd67e3c887e1",
+    "nameEn": "Sambuca",
+    "descriptionEn": "Italian in origin, Sambuca is an anise- and licorice-flavored liqueur commonly bottled at 42% ABV. Sambuca was first sold in the port of Civitavecchia, Italy, by Luigi Manzi in 1800. Sambuca is served straight, chilled, or as an ingredient in famous drinks such as the Anaconda, Black Widow, and Flaming Lamborghini.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879095/ingredients/z7ktjjhrewkcdxqsyzle.png",
+    "slug": "sambuca"
+  },
+  {
+    "_id": "66ded37bbddabd67e3c887e2",
+    "nameEn": "Scotch Whisky",
+    "descriptionEn": "The term scotch refers to any whiskey made in Scotland that is distilled from malted barley and aged in oak barrels for a minimum of three years. Normally between 40 and 94.8% ABV, the only additives allowed in the production of Scotch are water and caramel coloring. Scotch dates back to 1495, when Friar John Cor began distilling it in the Kingdom of Fife.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879164/ingredients/czto23u732gcoq08ywul.webp",
+    "slug": "scotch-whisky"
+  },
+  {
+    "_id": "66ded3acbddabd67e3c887e3",
+    "nameEn": "Sloe Gin",
+    "descriptionEn": "A British gin-based liqueur infused with blackthorn plums for a sweet plum taste, sloe gin typically has an alcohol content of around 15 to 30% ABV. Sloe gin is used in many classic cocktails. The Alabama Slammer, Red Death, and Slow Gin Fizz all use sloe gin as a primary ingredient.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879214/ingredients/s5dcqgp6ruow65sitlgk.png",
+    "slug": "sloe-gin"
+  },
+  {
+    "_id": "66ded3ddbddabd67e3c887e4",
+    "nameEn": "Soda",
+    "descriptionEn": "Soda water is the common name for water that’s been charged with carbon dioxide to make it fizzy and bubbly. Soda water is not flavored and contains no sweeteners, which means it’s an easy way to add carbonation and water to a variety of drinks without changing their flavor. Soda water is popular in the Sloe Gin Fizz and Campari Soda.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879262/ingredients/c9qb3ca20ueahnhewwwd.png",
+    "slug": "soda"
+  },
+  {
+    "_id": "66ded406bddabd67e3c887e5",
+    "nameEn": "Southern Comfort",
+    "descriptionEn": "An American liqueur sold between 21 and 50% ABV, Southern Comfort is a fruit- and spice-infused bourbon with peach flavoring. Southern Comfort was first produced at McCauley's Tavern in New Orleans' French Quarter in 1874 by bartender Martin Wilkes Heron.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879303/ingredients/bjxoh2geox8uwc2fci5b.png",
+    "slug": "southern-comfort"
+  },
+  {
+    "_id": "66ded428bddabd67e3c887e6",
+    "nameEn": "Sparkling Wine",
+    "descriptionEn": "Sparkling wine is any wine containing high amounts of carbon dioxide, which adds a bubbly, fizzy texture. The first written evidence of modern sparkling wines dates from 1622, but carbonation of wine was reported as far back as Ancient Greece and Rome. Champagne is the most well-known sparkling wine and is made exclusively in the French region of Champagne.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879337/ingredients/gcjdl9bptd7cccjtz4tp.png",
+    "slug": "sparkling-wine"
+  },
+  {
+    "_id": "66ded449bddabd67e3c887e7",
+    "nameEn": "Strawberry",
+    "descriptionEn": "Strawberries are sweet, red fruits that make wonderful in cocktails. They can be used to make fresh Strawberry Daiquiris or as a garnish for drinks such as the Strawberry Margarita or the Strawberry Martini.",
+    "tags": [
+      4
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879370/ingredients/bxqhu8qjyzeanejb4ahb.png",
+    "slug": "strawberry"
+  },
+  {
+    "_id": "66ded486bddabd67e3c887e8",
+    "nameEn": "Strawberry Liqueur",
+    "descriptionEn": "A strawberry-flavored alcoholic beverage. Strawberry liqueurs are usually about 20-25% ABV.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879432/ingredients/e4bxivuolawkm3tfay7n.png",
+    "slug": "strawberry-liqueur"
+  },
+  {
+    "_id": "66ded4ddbddabd67e3c887e9",
+    "nameEn": "Strawberry Syrup",
+    "descriptionEn": "A syrup that is made from and tastes like strawberries. Strawberry syrup is sweet and thick, and is a key ingredient in the Strawberry Daiquiri, Strawberry Punch, and Land Shark",
+    "tags": [
+      2
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879518/ingredients/gbgk1dqcnzuzxjfaboke.png",
+    "slug": "strawberry-syrup"
+  },
+  {
+    "_id": "66ded4fcbddabd67e3c887ea",
+    "nameEn": "Sugar",
+    "descriptionEn": "A crystalized powder produced from sugar cane, sugar is used to sweeten cocktails. Sugar is used in a wide assortment of cocktails; among these are the Tom Collins, Mojito, Old Fashioned, Mint Julep, Irish Coffee, Vodka Gimlet, Daiquiri, and Caipirinha.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879550/ingredients/cvkngzcm80kbdsttgnlw.png",
+    "slug": "sugar"
+  },
+  {
+    "_id": "66ded568bddabd67e3c887eb",
+    "nameEn": "Sugar Syrup",
+    "descriptionEn": "Sugar syrup is simply sugar boiled with water and can easily added to sweeten any cocktail without changing flavor. Sugar syrup is used in mojitos, and is also an ingredient in Tokyo and Long Island Iced Tea.",
+    "tags": [
+      2
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879657/ingredients/zbrvgszy9jqupdwhb5sv.png",
+    "slug": "sugar-syrup"
+  },
+  {
+    "_id": "66ded5a5bddabd67e3c887ec",
+    "nameEn": "Suze",
+    "descriptionEn": "Suze is a French bitter liqueur made by the maceration of gentian root in neutral spirit and then double-distillation. It was first created in 1889 by Fernand Moureaux, who was looking for a medicinal product to help aid digestion. There was an advertising campaign in France at the time proclaiming  Suze  a friend of the stomach. Suze is well-known for its distinctive bitterness and bright yellow color.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879719/ingredients/elglwtj3r5n26ivz5iw9.png",
+    "slug": "suze"
+  },
+  {
+    "_id": "66ded5ccbddabd67e3c887ed",
+    "nameEn": "Tabasco",
+    "descriptionEn": "A hot and spicy flavored sauce, Tabasco is made from the Tabasco pepper, vinegar and salt. Tabasco sauce, first made in 1868 by Edmund McIlhenny, is used to add spice and fiery flavor to cocktails, the most famous of which is probably the Bloody Mary",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879757/ingredients/mmz4yclxbwhqcy7ble46.png",
+    "slug": "tabasco"
+  },
+  {
+    "_id": "66ded5edbddabd67e3c887ee",
+    "nameEn": "Tequila Blanco",
+    "descriptionEn": "A clear spirit that is either unaged or aged less than two months, tequila blanco is almost always 40% ABV and is harsher and less complex than aged tequilas. First made in the 16th century in Tequila, Mexico, tequila blanco is distilled from the blue agave plant. The classic way to drink tequila blanco is as a shot with salt and lime to compliment its harsh, direct flavors.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879791/ingredients/k5rb6oyeyawhpsmrtlou.png",
+    "slug": "tequila-blanco"
+  },
+  {
+    "_id": "66ded630bddabd67e3c887ef",
+    "nameEn": "Tequila Gold",
+    "descriptionEn": "Gold tequilas are mixed with aged tequilas or added coloring to give them a golden hue. Gold tequilas are normally around 40% ABV and are typically lower in quality than silvers, reposados, or anejos. Gold tequila is frequently used in margaritas, including the Italian Margarita. Jose Cuervo Especial Gold Tequila, one of the world's best-selling tequilas, is also one of the four ingredients in the Four Horsemen on a Mexican Trail shot.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879858/ingredients/vwukqiqasjp43ub5gmoy.png",
+    "slug": "tequila-gold"
+  },
+  {
+    "_id": "66ded661bddabd67e3c887f0",
+    "nameEn": "Tomato Juice",
+    "descriptionEn": "Tomato juice is the sweet, tangy juice made from tomatoes. Tomato juice is most commonly featured in the Bloody Mary, which includes vodka, and optionally celery, hot sauce, and Worcestershire Sauce for flavor.",
+    "tags": [
+      5
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879907/ingredients/ycokpwmh1zlj07jrmalv.png",
+    "slug": "tomato-juice"
+  },
+  {
+    "_id": "66ded68ebddabd67e3c887f1",
+    "nameEn": "Tonic",
+    "descriptionEn": "Tonic water is a carbonated beverage known for its bitter flavor. Tonic water originally contained quinine as a protection against malaria, as it was primarily consumed in South Asia and Africa. The Gin and Tonic, perhaps the most famous cocktail involving tonic water, originated in India during the British colonial period as a way to make the medicinal tonic more palatable by taking the edge off its bitter taste.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879951/ingredients/rinvpd9auc7b0w0sdk5m.webp",
+    "slug": "tonic"
+  },
+  {
+    "_id": "66ded6bbbddabd67e3c887f2",
+    "nameEn": "Triple Sec",
+    "descriptionEn": "Triple sec is a sweet, colorless, orange-flavored liqueur that ranges from 15 to 40% ABV. Jean-Baptiste Combier invented Triple Sec between 1834 and 1848 in Saumur, France. Because of its citrusy sweet orange taste, Triple Sec is commonly used in margaritas.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725879996/ingredients/xdpln50v7nz5n7k0ll03.png",
+    "slug": "triple-sec"
+  },
+  {
+    "_id": "66ded6e5bddabd67e3c887f3",
+    "nameEn": "Vanilla Pods",
+    "descriptionEn": "The vanilla pod, or vanilla bean, has no flavor when fresh but develops a rich, creamy tobacco-like flavor when fermented. Vanilla pods can be used to make vanilla syrup or to garnish cocktails like the Vanilla Old Fashioned.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880038/ingredients/zkrzpijojkyass9sigbt.png",
+    "slug": "vanilla-pods"
+  },
+  {
+    "_id": "66ded722bddabd67e3c887f4",
+    "nameEn": "Vodka",
+    "descriptionEn": "Made primarily from the distillation of grains and potatoes, vodka is a clear, odorless, flavorless alcoholic spirit consisting mainly of water and ethanol with an ABV of 40%. Vodka's history dates back to 9th century Russia, or possibly 8th century Poland. The first known distillery was recorded in the late 12th century. Because it is odorless and flavorless, vodka is used in a wide range of different cocktails. The Bloody Mary, Screwdriver are just a few of the drink recipes call for vodka",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880099/ingredients/hbrtkha78oayn8lidxxu.png",
+    "slug": "vodka"
+  },
+  {
+    "_id": "66ded747bddabd67e3c887f5",
+    "nameEn": "Vodka Citron",
+    "descriptionEn": "Generally having a slightly lower ABV than standard, non-flavored vodka, Vodka Citron is a liquor infused with lemon and lime citrus essences appeal to those who enjoy flavored spirits. Vodka Citron originated hundreds of years after traditional vodka. Because of its lemon and lime flavors, Vodka Citron is used in Electric Lemonade, the Chocolate Cake Shooter, and the Flaming Lemon Drop to add zest and potency.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880135/ingredients/phl5wlrpnpdzriytygyi.png",
+    "slug": "vodka-citron"
+  },
+  {
+    "_id": "66ded77bbddabd67e3c887f6",
+    "nameEn": "Vodka Vanilla",
+    "descriptionEn": "Vodka with vanilla flavor.",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880188/ingredients/pactvcehyjdkftoebd7b.png",
+    "slug": "vodka-vanilla"
+  },
+  {
+    "_id": "66ded799bddabd67e3c887f7",
+    "nameEn": "Water",
+    "descriptionEn": "Water is a colorless, flavorless liquid. While water is not often used as a cocktail mixer, it is sometimes mixed with Scotch or Bourbon to tone down the intensity of the alcohol and bring out some of the subtler, more complex flavors of these spirits. Water is also used in the traditional Absinthe cocktail recipe.",
+    "tags": [
+      0
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880218/ingredients/cbbr2ownlnvlifqp4lre.png",
+    "slug": "water"
+  },
+  {
+    "_id": "66ded7cebddabd67e3c887f8",
+    "nameEn": "Whipped Cream",
+    "descriptionEn": "Whipped cream is cream that has been beaten or expanded to achieve a frothy, soft texture. Sugar and vanilla are often added to enhance the taste. Whipped cream can be used as a topping on cocktails like the Scooby Snack, Mexican Coffee, and Irish Kiss.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880271/ingredients/cyvrnyoqat1w0rwodpuh.png",
+    "slug": "whipped-cream"
+  },
+  {
+    "_id": "66ded816bddabd67e3c887f9",
+    "nameEn": "Whiskey",
+    "descriptionEn": "A large category of spirits distilled from a fermented mash of grains, which can include barley, corn, rye, and wheat. Whiskey is aged in wooden casks that are generally made of charred white oak. The first written record of whiskey appeared in Ireland in 1405. Today, distillers produce a wide variety of whiskeys, including Scotch, Irish, bourbon, and blended and single malts. Whiskey is an incredibly popular drink in the USA and Europe and the spirit is loved for its flavor and woody subtleties",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880343/ingredients/fbcnxxxwaklu4komfmxc.png",
+    "slug": "whiskey"
+  },
+  {
+    "_id": "66ded84dbddabd67e3c887fa",
+    "nameEn": "White Rum",
+    "descriptionEn": "known as light rum, white rum is a clear spirit and is usually bottled at 40% ABV. White rum has a mild sweetness and relatively little flavor. Like all rums, it is produced from sugarcane byproducts. White rums were produced on slave plantations in Barbados in the 17th century. Because of their subdued flavor and sweetness, white rums tend to be used in cocktails more often than they are served as stand-alone drinks. ",
+    "tags": [
+      1
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880398/ingredients/vfwq2ftl8iwkj8hunhds.png",
+    "slug": "white-rum"
+  },
+  {
+    "_id": "66ded88ebddabd67e3c887fb",
+    "nameEn": "White Vermouth",
+    "descriptionEn": "White vermouth is a fortified wine flavored with botanicals and has strong aromas of oregano and thyme, along with vanilla and clover flavors. White vermouth has been in production since the late 1800s and is most popular in Italy. White vermouth is commonly served over ice with a twist of lemon.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880463/ingredients/xocleywdyjrza2gdtfin.png",
+    "slug": "white-vermouth"
+  },
+  {
+    "_id": "66ded8b1bddabd67e3c887fc",
+    "nameEn": "White Wine",
+    "descriptionEn": "A light golden to yellow-colored wine made by fermenting white grapes; white wines are usually between 8 and 12% ABV. The most common types of white wine include Chardonnay, Sauvignon Blanc, and Riesling. White wine dates as far back as red wine, which is thought to have first been produced in Ancient Egypt, although there is strong evidence suggesting that wine was around as early as 7000 BCE.",
+    "tags": [
+      3
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880499/ingredients/lr6tgsodko98clee95pt.png",
+    "slug": "white-wine"
+  },
+  {
+    "_id": "66ded8dcbddabd67e3c887fd",
+    "nameEn": "Worcestershire Sauce",
+    "descriptionEn": "A dark, seasoned sauce containing garlic, soy sauce, lime, molasses, and onion, Worcestershire sauce became popular in the 1840s as a seasoning sauce for meat. Today it is frequently added to cocktails to lend them a spicy, seasoned flavor. The most popular cocktail containing Worcestershire sauce is the Bloody Mary.",
+    "tags": [
+      6
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880541/ingredients/nvdk6g0hzxpgzsiikz05.png",
+    "slug": "worcestershire-sauce"
+  }
+]
