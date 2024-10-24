@@ -1666,5 +1666,19 @@
     ],
     "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1725880541/ingredients/nvdk6g0hzxpgzsiikz05.png",
     "slug": "worcestershire-sauce"
+  },
+  {
+    "_id": {
+      "$oid": "671a0eb5299250f8fb992a06"
+    },
+    "nameEn": "Peach Schnapps",
+    "descriptionEn": "A peach-flavored alcoholic beverage combining neutral grain spirits and distilled peaches, peach schnapps has become popular in America and around the world as an ingredient in beloved bar cocktails such as the Red Headed Slut, Sex on the Beach, and Brain Hemorrhage. Peach schnapps originates from Germany and is typically bottled at an ABV between 15 and 50%. It is technically a liqueur since sugar is added just before bottling.",
+    "tags": [
+      {
+        "$numberInt": "1"
+      }
+    ],
+    "image": "https://res.cloudinary.com/dl6mqzurj/image/upload/v1729760949/custom-ingredients/tb1nun9zqp0zoscfzxra.png",
+    "slug": "peach-schnapps"
   }
 ]
